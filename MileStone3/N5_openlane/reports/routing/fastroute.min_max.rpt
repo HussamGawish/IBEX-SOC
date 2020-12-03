@@ -1,0 +1,255 @@
+Startpoint: rst_ni (input port clocked by clk_i)
+Endpoint: _39948_ (removal check against rising-edge clock clk_i)
+Path Group: **async_default**
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_i (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   4.03    6.03 ^ rst_ni (in)
+   0.00    6.03 ^ _39948_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+           6.03   data arrival time
+
+   0.00    0.00   clock clk_i (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ _39948_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   1.55    1.55   library removal time
+           1.55   data required time
+---------------------------------------------------------
+           1.55   data required time
+          -6.03   data arrival time
+---------------------------------------------------------
+           4.48   slack (MET)
+
+
+Startpoint: _38563_ (rising edge-triggered flip-flop clocked by clk_i)
+Endpoint: _38563_ (rising edge-triggered flip-flop clocked by clk_i)
+Path Group: clk_i
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_i (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _38563_/CLK (sky130_fd_sc_hd__dfrtp_4)
+   0.27    0.27 ^ _38563_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.07    0.34 ^ _23671_/X (sky130_fd_sc_hd__or2_4)
+   0.00    0.34 ^ _38563_/D (sky130_fd_sc_hd__dfrtp_4)
+           0.34   data arrival time
+
+   0.00    0.00   clock clk_i (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ _38563_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  -0.01   -0.01   library hold time
+          -0.01   data required time
+---------------------------------------------------------
+          -0.01   data required time
+          -0.34   data arrival time
+---------------------------------------------------------
+           0.35   slack (MET)
+
+
+Startpoint: rst_ni (input port clocked by clk_i)
+Endpoint: _39681_ (recovery check against rising-edge clock clk_i)
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_i (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+  10.44   12.44 ^ rst_ni (in)
+   0.00   12.44 ^ _39681_/RESET_B (sky130_fd_sc_hd__dfrtp_4)
+          12.44   data arrival time
+
+  10.00   10.00   clock clk_i (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ _39681_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  -8.79    1.21   library recovery time
+           1.21   data required time
+---------------------------------------------------------
+           1.21   data required time
+         -12.44   data arrival time
+---------------------------------------------------------
+         -11.23   slack (VIOLATED)
+
+
+Startpoint: _38310_ (rising edge-triggered flip-flop clocked by clk_i)
+Endpoint: _39593_ (rising edge-triggered flip-flop clocked by clk_i)
+Path Group: clk_i
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk_i (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ _38310_/CLK (sky130_fd_sc_hd__dfxtp_4)
+   6.42    6.42 ^ _38310_/Q (sky130_fd_sc_hd__dfxtp_4)
+   0.47    6.88 ^ _25992_/X (sky130_fd_sc_hd__buf_1)
+   0.16    7.04 v _26005_/Y (sky130_fd_sc_hd__inv_8)
+   1.01    8.05 v _26013_/X (sky130_fd_sc_hd__or4_4)
+   0.32    8.38 v _26016_/X (sky130_fd_sc_hd__and2_4)
+   0.86    9.24 v _26017_/X (sky130_fd_sc_hd__or4_4)
+   0.14    9.38 ^ _26018_/Y (sky130_fd_sc_hd__o21ai_4)
+   0.25    9.63 ^ _26023_/X (sky130_fd_sc_hd__or4_4)
+   0.18    9.81 ^ _26024_/X (sky130_fd_sc_hd__or4_4)
+   0.51   10.32 ^ _26025_/X (sky130_fd_sc_hd__buf_1)
+   0.17   10.48 v _27903_/Y (sky130_fd_sc_hd__inv_8)
+   0.20   10.69 ^ _27904_/Y (sky130_fd_sc_hd__nor3_4)
+   0.33   11.02 ^ _27912_/X (sky130_fd_sc_hd__o21a_4)
+   0.33   11.34 ^ _27913_/X (sky130_fd_sc_hd__buf_1)
+   0.30   11.64 ^ _28267_/X (sky130_fd_sc_hd__or2_4)
+   0.34   11.98 ^ _28268_/X (sky130_fd_sc_hd__and2_4)
+   0.23   12.20 ^ _28279_/X (sky130_fd_sc_hd__or2_4)
+   0.46   12.67 ^ _28280_/X (sky130_fd_sc_hd__buf_1)
+   0.16   12.82 v _28281_/Y (sky130_fd_sc_hd__inv_8)
+   0.22   13.04 v _28282_/X (sky130_fd_sc_hd__o21a_4)
+   0.49   13.53 v _28283_/X (sky130_fd_sc_hd__a211o_4)
+   0.82   14.35 v _28284_/X (sky130_fd_sc_hd__or4_4)
+   0.36   14.71 v _28285_/X (sky130_fd_sc_hd__buf_1)
+   0.16   14.87 ^ _28286_/Y (sky130_fd_sc_hd__inv_8)
+   0.28   15.15 ^ _28287_/X (sky130_fd_sc_hd__buf_1)
+   0.35   15.50 ^ _28288_/X (sky130_fd_sc_hd__buf_1)
+   0.36   15.86 ^ _28289_/X (sky130_fd_sc_hd__buf_1)
+   0.36   16.22 ^ _28290_/X (sky130_fd_sc_hd__buf_1)
+   0.29   16.52 ^ _30058_/X (sky130_fd_sc_hd__or2_4)
+   0.41   16.93 ^ _30068_/X (sky130_fd_sc_hd__a32o_4)
+   0.24   17.17 ^ _30069_/X (sky130_fd_sc_hd__or2_4)
+   0.44   17.61 v _30070_/X (sky130_fd_sc_hd__a21bo_4)
+   0.50   18.11 v _30283_/X (sky130_fd_sc_hd__or2_4)
+   0.53   18.64 v _30650_/X (sky130_fd_sc_hd__or2_4)
+   0.38   19.02 ^ _32819_/Y (sky130_fd_sc_hd__nor3_4)
+   0.12   19.14 v _32820_/Y (sky130_fd_sc_hd__nor4_4)
+   0.19   19.33 v _32821_/X (sky130_fd_sc_hd__buf_1)
+   0.23   19.56 v psn_inst_psn_buff_28/X (sky130_fd_sc_hd__buf_1)
+   0.21   19.77 v psn_inst_psn_buff_32/X (sky130_fd_sc_hd__buf_1)
+   0.44   20.21 v _33066_/X (sky130_fd_sc_hd__o21a_4)
+   0.44   20.65 ^ _33067_/X (sky130_fd_sc_hd__a2bb2o_4)
+   0.09   20.74 v _33068_/Y (sky130_fd_sc_hd__inv_8)
+   0.81   21.56 v _33071_/X (sky130_fd_sc_hd__or4_4)
+   0.95   22.51 v _33072_/X (sky130_fd_sc_hd__or4_4)
+   0.83   23.34 v _33093_/X (sky130_fd_sc_hd__or4_4)
+   0.32   23.66 v _33094_/X (sky130_fd_sc_hd__buf_1)
+   0.25   23.91 v psn_inst_psn_buff_65/X (sky130_fd_sc_hd__buf_1)
+   0.18   24.09 v psn_inst_psn_buff_21/X (sky130_fd_sc_hd__buf_1)
+   0.50   24.59 v _33111_/X (sky130_fd_sc_hd__a32o_4)
+   0.24   24.83 v _33112_/X (sky130_fd_sc_hd__and2_4)
+   0.20   25.03 v psn_inst_psn_buff_19/X (sky130_fd_sc_hd__buf_1)
+   0.11   25.14 ^ _33113_/Y (sky130_fd_sc_hd__nand3_4)
+   0.17   25.31 ^ psn_inst_psn_buff_62/X (sky130_fd_sc_hd__buf_1)
+   0.23   25.54 ^ psn_inst_psn_buff_18/X (sky130_fd_sc_hd__buf_1)
+   0.14   25.68 v _33116_/Y (sky130_fd_sc_hd__a21oi_4)
+   0.68   26.36 v _33117_/X (sky130_fd_sc_hd__or3_4)
+   0.19   26.55 v psn_inst_psn_buff_17/X (sky130_fd_sc_hd__buf_1)
+   0.64   27.18 v _33118_/X (sky130_fd_sc_hd__or3_4)
+   0.18   27.36 v psn_inst_psn_buff_125/X (sky130_fd_sc_hd__buf_1)
+   0.14   27.50 v psn_inst_psn_buff_93/X (sky130_fd_sc_hd__buf_1)
+   0.14   27.64 v psn_inst_psn_buff_61/X (sky130_fd_sc_hd__buf_1)
+   0.15   27.79 v psn_inst_psn_buff_16/X (sky130_fd_sc_hd__buf_1)
+   0.81   28.60 v _33119_/X (sky130_fd_sc_hd__or4_4)
+   0.23   28.82 v _33120_/X (sky130_fd_sc_hd__buf_1)
+   0.17   28.99 v psn_inst_psn_buff_168/X (sky130_fd_sc_hd__buf_1)
+   0.14   29.14 v psn_inst_psn_buff_146/X (sky130_fd_sc_hd__buf_1)
+   0.14   29.28 v psn_inst_psn_buff_124/X (sky130_fd_sc_hd__buf_1)
+   0.14   29.42 v psn_inst_psn_buff_92/X (sky130_fd_sc_hd__buf_1)
+   0.14   29.56 v psn_inst_psn_buff_60/X (sky130_fd_sc_hd__buf_1)
+   0.26   29.83 v psn_inst_psn_buff_15/X (sky130_fd_sc_hd__buf_1)
+   0.13   29.96 ^ _33121_/Y (sky130_fd_sc_hd__inv_8)
+   0.14   30.09 ^ psn_inst_psn_buff_208/X (sky130_fd_sc_hd__buf_1)
+   0.14   30.23 ^ psn_inst_psn_buff_195/X (sky130_fd_sc_hd__buf_1)
+   0.14   30.37 ^ psn_inst_psn_buff_182/X (sky130_fd_sc_hd__buf_1)
+   0.14   30.52 ^ psn_inst_psn_buff_167/X (sky130_fd_sc_hd__buf_1)
+   0.14   30.66 ^ psn_inst_psn_buff_145/X (sky130_fd_sc_hd__buf_1)
+   0.14   30.80 ^ psn_inst_psn_buff_123/X (sky130_fd_sc_hd__buf_1)
+   0.14   30.94 ^ psn_inst_psn_buff_91/X (sky130_fd_sc_hd__buf_1)
+   0.14   31.08 ^ psn_inst_psn_buff_59/X (sky130_fd_sc_hd__buf_1)
+   0.15   31.23 ^ psn_inst_psn_buff_14/X (sky130_fd_sc_hd__buf_1)
+   0.43   31.66 ^ _33122_/X (sky130_fd_sc_hd__and4_4)
+   0.21   31.87 ^ _33123_/X (sky130_fd_sc_hd__or4_4)
+   0.14   32.01 ^ psn_inst_psn_buff_300/X (sky130_fd_sc_hd__buf_1)
+   0.15   32.16 ^ psn_inst_psn_buff_294/X (sky130_fd_sc_hd__buf_1)
+   0.15   32.31 ^ psn_inst_psn_buff_285/X (sky130_fd_sc_hd__buf_1)
+   0.14   32.45 ^ psn_inst_psn_buff_274/X (sky130_fd_sc_hd__buf_1)
+   0.15   32.60 ^ psn_inst_psn_buff_265/X (sky130_fd_sc_hd__buf_1)
+   0.14   32.74 ^ psn_inst_psn_buff_256/X (sky130_fd_sc_hd__buf_1)
+   0.14   32.88 ^ psn_inst_psn_buff_233/X (sky130_fd_sc_hd__buf_1)
+   0.14   33.02 ^ psn_inst_psn_buff_220/X (sky130_fd_sc_hd__buf_1)
+   0.15   33.17 ^ psn_inst_psn_buff_207/X (sky130_fd_sc_hd__buf_1)
+   0.14   33.31 ^ psn_inst_psn_buff_194/X (sky130_fd_sc_hd__buf_1)
+   0.14   33.45 ^ psn_inst_psn_buff_181/X (sky130_fd_sc_hd__buf_1)
+   0.14   33.59 ^ psn_inst_psn_buff_166/X (sky130_fd_sc_hd__buf_1)
+   0.14   33.73 ^ psn_inst_psn_buff_144/X (sky130_fd_sc_hd__buf_1)
+   0.14   33.87 ^ psn_inst_psn_buff_122/X (sky130_fd_sc_hd__buf_1)
+   0.14   34.01 ^ psn_inst_psn_buff_90/X (sky130_fd_sc_hd__buf_1)
+   0.14   34.15 ^ psn_inst_psn_buff_58/X (sky130_fd_sc_hd__buf_1)
+   0.15   34.30 ^ psn_inst_psn_buff_13/X (sky130_fd_sc_hd__buf_1)
+   0.28   34.58 ^ _33124_/X (sky130_fd_sc_hd__and2_4)
+   0.15   34.73 ^ psn_inst_psn_buff_431/X (sky130_fd_sc_hd__buf_1)
+   0.14   34.87 ^ psn_inst_psn_buff_426/X (sky130_fd_sc_hd__buf_1)
+   0.14   35.02 ^ psn_inst_psn_buff_419/X (sky130_fd_sc_hd__buf_1)
+   0.14   35.16 ^ psn_inst_psn_buff_414/X (sky130_fd_sc_hd__buf_1)
+   0.14   35.30 ^ psn_inst_psn_buff_409/X (sky130_fd_sc_hd__buf_1)
+   0.14   35.44 ^ psn_inst_psn_buff_404/X (sky130_fd_sc_hd__buf_1)
+   0.14   35.59 ^ psn_inst_psn_buff_398/X (sky130_fd_sc_hd__buf_1)
+   0.14   35.73 ^ psn_inst_psn_buff_391/X (sky130_fd_sc_hd__buf_1)
+   0.14   35.87 ^ psn_inst_psn_buff_382/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.01 ^ psn_inst_psn_buff_377/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.15 ^ psn_inst_psn_buff_368/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.29 ^ psn_inst_psn_buff_363/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.43 ^ psn_inst_psn_buff_356/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.57 ^ psn_inst_psn_buff_350/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.71 ^ psn_inst_psn_buff_343/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.85 ^ psn_inst_psn_buff_335/X (sky130_fd_sc_hd__buf_1)
+   0.14   36.99 ^ psn_inst_psn_buff_327/X (sky130_fd_sc_hd__buf_1)
+   0.14   37.13 ^ psn_inst_psn_buff_316/X (sky130_fd_sc_hd__buf_1)
+   0.14   37.27 ^ psn_inst_psn_buff_311/X (sky130_fd_sc_hd__buf_1)
+   0.14   37.41 ^ psn_inst_psn_buff_306/X (sky130_fd_sc_hd__buf_1)
+   0.14   37.56 ^ psn_inst_psn_buff_299/X (sky130_fd_sc_hd__buf_1)
+   0.15   37.70 ^ psn_inst_psn_buff_293/X (sky130_fd_sc_hd__buf_1)
+   0.14   37.85 ^ psn_inst_psn_buff_284/X (sky130_fd_sc_hd__buf_1)
+   0.14   37.99 ^ psn_inst_psn_buff_273/X (sky130_fd_sc_hd__buf_1)
+   0.14   38.13 ^ psn_inst_psn_buff_264/X (sky130_fd_sc_hd__buf_1)
+   0.14   38.26 ^ psn_inst_psn_buff_255/X (sky130_fd_sc_hd__buf_1)
+   0.14   38.40 ^ psn_inst_psn_buff_232/X (sky130_fd_sc_hd__buf_1)
+   0.14   38.55 ^ psn_inst_psn_buff_219/X (sky130_fd_sc_hd__buf_1)
+   0.14   38.69 ^ psn_inst_psn_buff_206/X (sky130_fd_sc_hd__buf_1)
+   0.14   38.83 ^ psn_inst_psn_buff_193/X (sky130_fd_sc_hd__buf_1)
+   0.14   38.97 ^ psn_inst_psn_buff_180/X (sky130_fd_sc_hd__buf_1)
+   0.14   39.11 ^ psn_inst_psn_buff_165/X (sky130_fd_sc_hd__buf_1)
+   0.14   39.25 ^ psn_inst_psn_buff_143/X (sky130_fd_sc_hd__buf_1)
+   0.14   39.39 ^ psn_inst_psn_buff_121/X (sky130_fd_sc_hd__buf_1)
+   0.14   39.53 ^ psn_inst_psn_buff_89/X (sky130_fd_sc_hd__buf_1)
+   0.14   39.67 ^ psn_inst_psn_buff_57/X (sky130_fd_sc_hd__buf_1)
+   0.15   39.81 ^ psn_inst_psn_buff_12/X (sky130_fd_sc_hd__buf_1)
+   0.20   40.01 ^ _33125_/X (sky130_fd_sc_hd__or4_4)
+   0.23   40.25 ^ _33133_/X (sky130_fd_sc_hd__buf_1)
+   0.21   40.46 ^ psn_inst_psn_buff_163/X (sky130_fd_sc_hd__buf_1)
+   0.14   40.60 ^ psn_inst_psn_buff_10/X (sky130_fd_sc_hd__buf_1)
+   0.26   40.87 ^ _35710_/X (sky130_fd_sc_hd__buf_1)
+   0.51   41.38 ^ _37202_/X (sky130_fd_sc_hd__buf_1)
+   0.48   41.86 ^ _37237_/X (sky130_fd_sc_hd__o22a_4)
+   0.32   42.17 ^ _37238_/X (sky130_fd_sc_hd__buf_1)
+   0.82   42.99 ^ _19227_/X (sky130_fd_sc_hd__buf_1)
+   0.32   43.32 v _19439_/Y (sky130_fd_sc_hd__o21ai_4)
+   0.00   43.32 v _39593_/D (sky130_fd_sc_hd__dfrtp_4)
+          43.32   data arrival time
+
+  10.00   10.00   clock clk_i (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ _39593_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  -0.29    9.71   library setup time
+           9.71   data required time
+---------------------------------------------------------
+           9.71   data required time
+         -43.32   data arrival time
+---------------------------------------------------------
+         -33.61   slack (VIOLATED)
+
+
