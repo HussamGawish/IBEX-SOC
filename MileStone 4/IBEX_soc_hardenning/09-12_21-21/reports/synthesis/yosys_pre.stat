@@ -1,0 +1,37 @@
+
+55. Printing statistics.
+
+=== soc_core_m1_b1 ===
+
+   Number of wires:             179745
+   Number of wire bits:         313023
+   Number of public wires:        4482
+   Number of public wire bits:  137756
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             312630
+     $_ANDNOT_                   24093
+     $_AND_                        683
+     $_DFFE_NN0P_                   64
+     $_DFFE_PN0N_                   31
+     $_DFFE_PN0P_                 2163
+     $_DFFE_PN1N_                    2
+     $_DFFE_PN1P_                   32
+     $_DFFE_PN_                     81
+     $_DFFE_PP_                 133884
+     $_DFF_NN0_                      9
+     $_DFF_NN1_                      7
+     $_DFF_PN0_                    119
+     $_DFF_PN1_                     10
+     $_DFF_P_                        2
+     $_DLATCH_N_                     6
+     $_MUX_                     135803
+     $_NAND_                       567
+     $_NOR_                       1060
+     $_NOT_                       1898
+     $_ORNOT_                      623
+     $_OR_                        9979
+     $_XNOR_                       460
+     $_XOR_                       1054
+

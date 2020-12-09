@@ -1,0 +1,25 @@
+OpenROAD 0.9.0 e582f2522b
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/merged_unpadded.lef
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 437 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/floorplan/ioPlacer.def
+Notice 0: Design: ibex_core
+Notice 0:     Created 264 pins.
+Notice 0:     Created 21079 components and 113987 component-terminals.
+Notice 0:     Created 21237 nets and 71823 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/floorplan/ioPlacer.def
+Running tapcell...
+Step 1: Cut rows...
+[INFO] Macro blocks found: 0
+[INFO] #Original rows: 431
+[INFO] #Cut rows: 0
+Step 2: Insert endcaps...
+[INFO] #Endcaps inserted: 862
+Step 3: Insert tapcells...
+[INFO] #Tapcells inserted: 17967
+Running tapcell... Done!

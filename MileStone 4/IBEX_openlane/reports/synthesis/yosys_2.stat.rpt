@@ -1,0 +1,61 @@
+
+42. Printing statistics.
+
+=== ibex_core ===
+
+   Number of wires:              21003
+   Number of wire bits:          21237
+   Number of public wires:        2009
+   Number of public wire bits:    2243
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              21079
+     sky130_fd_sc_hd__a2111o_4       3
+     sky130_fd_sc_hd__a2111oi_4     52
+     sky130_fd_sc_hd__a211o_4      348
+     sky130_fd_sc_hd__a21bo_4      270
+     sky130_fd_sc_hd__a21boi_4      42
+     sky130_fd_sc_hd__a21o_4       412
+     sky130_fd_sc_hd__a21oi_4      113
+     sky130_fd_sc_hd__a22oi_4       32
+     sky130_fd_sc_hd__a2bb2o_4    1405
+     sky130_fd_sc_hd__a2bb2oi_4     24
+     sky130_fd_sc_hd__a32o_4       461
+     sky130_fd_sc_hd__a32oi_4      273
+     sky130_fd_sc_hd__and2_4       720
+     sky130_fd_sc_hd__and3_4       849
+     sky130_fd_sc_hd__and4_4        90
+     sky130_fd_sc_hd__buf_1       3949
+     sky130_fd_sc_hd__buf_2         30
+     sky130_fd_sc_hd__buf_4          1
+     sky130_fd_sc_hd__buf_8          2
+     sky130_fd_sc_hd__conb_1         6
+     sky130_fd_sc_hd__dfrtp_4     1650
+     sky130_fd_sc_hd__dfstp_4        8
+     sky130_fd_sc_hd__dfxtp_4      273
+     sky130_fd_sc_hd__dlclkp_1       1
+     sky130_fd_sc_hd__inv_8       1954
+     sky130_fd_sc_hd__nand2_4      219
+     sky130_fd_sc_hd__nand3_4        3
+     sky130_fd_sc_hd__nand4_4        2
+     sky130_fd_sc_hd__nor2_4       317
+     sky130_fd_sc_hd__nor3_4       112
+     sky130_fd_sc_hd__nor4_4        24
+     sky130_fd_sc_hd__o21a_4       794
+     sky130_fd_sc_hd__o21ai_4      829
+     sky130_fd_sc_hd__o22a_4      1099
+     sky130_fd_sc_hd__o32a_4        23
+     sky130_fd_sc_hd__o32ai_4        6
+     sky130_fd_sc_hd__o41a_4         2
+     sky130_fd_sc_hd__or2_4       4022
+     sky130_fd_sc_hd__or3_4        368
+     sky130_fd_sc_hd__or4_4        288
+     sky130_fd_sc_hd__xnor2_4        1
+     sky130_fd_sc_hd__xor2_4         2
+
+   Area for cell type \sky130_fd_sc_hd__buf_2 is unknown!
+   Area for cell type \sky130_fd_sc_hd__dlclkp_1 is unknown!
+
+   Chip area for module '\ibex_core': 272074.691200
+

@@ -1,0 +1,73 @@
+===========================================================================
+   Open Source Mixed-Height Standard Cell Detail Placer < OpenDP_v1.0 >    
+   Developers : SangGi Do, Mingyu Woo                                      
+===========================================================================
+Parsed 10000 number of lines!!
+Parsed 20000 number of lines!!
+Parsed 30000 number of lines!!
+Parsed 40000 number of lines!!
+Parsed 50000 number of lines!!
+Parsed 60000 number of lines!!
+Reading /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/merged.lef is Done
+
+-------------------- INPUT FILES ----------------------------------
+ benchmark name    : placement
+ directory         : /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp
+ lef               : /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/merged.lef
+ def               : /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/placement/openphysyn.def
+-------------------------------------------------------------------
+Parsed 10000 number of lines!!
+Parsed 20000 number of lines!!
+Parsed 30000 number of lines!!
+Parsed 40000 number of lines!!
+Parsed 50000 number of lines!!
+Parsed 60000 number of lines!!
+CoreArea: 
+5520.000000 : 10880.000000 - 1180360.000000 : 1183200.000000
+DieArea: 
+0.000000 : 0.000000 - 1174840.000000 : 1172320.000000
+Reading /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/placement/openphysyn.def is Done
+-------------------- DESIGN ANALYSIS ------------------------------
+  total cells              : 40575
+  multi cells              : 0
+  fixed cells              : 18829
+  total nets               : 21904
+  design area              : 1.37729e+12
+  total f_area             : 2.57159e+10
+  total m_area             : 4.92891e+11
+  design util              : 36.468
+  num rows                 : 431
+  row height               : 2720
+-------------------------------------------------------------------
+ non_group_cell_region_assign done ..
+ - - - - - - - - - - - - - - - - - - - - - - - - 
+ non_group_cell_placement done .. 
+ - - - - - - - - - - - - - - - - - - - - - - - - 
+Reading /openLANE_flow/designs/ibex/runs/03-12_09-57/tmp/placement/openphysyn.def is Done
+ DEF file write success !! 
+ location : /openLANE_flow/designs/ibex/runs/03-12_09-57/results/placement/ibex_core.placement.def
+-------------------------------------------------------------------
+ tasks                          Wtime      Ctime
+ Parser                         0.794      0.790
+ resgin assign                  0.795      0.790
+ pre-placement                  0.795      0.790
+ non Group cell placement       0.861      0.850
+ All                            0.864      0.860
+ - - - - - EVALUATION - - - - - 
+ AVG_displacement : 2864.24
+ SUM_displacement : 1.16217e+08
+ MAX_displacement : 91130
+ - - - - - - - - - - - - - - - - 
+ GP HPWL          : 1.25253e+06
+ HPWL             : 1.35426e+06
+ avg_Disp_site    : 6.22661
+ avg_Disp_row     : 1.05303
+ delta_HPWL       : 8.12168
+ ==== CHECK LEGALITY ==== 
+ row_check ==>> PASS 
+ site_check ==>> PASS 
+ power_check ==>> PASS 
+ edge_check ==>> PASS 
+ placed_check ==>> PASS 
+ overlap_check ==>> PASS 
+ - - - - - < Program END > - - - - - 
