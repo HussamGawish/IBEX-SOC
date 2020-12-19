@@ -1,0 +1,241 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 pin VPB missing from liberty cell
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/routing/fastroute_2.def
+Notice 0: Design: openstriVe_soc_mem
+Notice 0: 		Created 100000 Insts
+Notice 0: 		Created 200000 Insts
+Notice 0: 		Created 300000 Insts
+Notice 0: 		Created 400000 Insts
+Notice 0: 		Created 100000 Nets
+Notice 0: 		Created 200000 Nets
+Notice 0:     Created 94 pins.
+Notice 0:     Created 427340 components and 1648248 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 236892 nets and 793568 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/routing/fastroute_2.def
+[PARAMS] Min routing layer: 2
+[PARAMS] Max routing layer: 6
+[PARAMS] Global adjustment: 0
+[PARAMS] Unidirectional routing: 1
+[PARAMS] Grid origin: (-1, -1)
+[INFO] #DB Obstructions: 0
+[INFO] #DB Obstacles: 12299818
+[INFO] #DB Macros: 0
+[INFO] Found 0 clock nets
+[INFO] Minimum degree: 2
+[INFO] Maximum degree: 116
+[INFO] Processing 8421891 obstacles on layer 1
+[INFO] Processing 1342604 obstacles on layer 2
+[INFO] Processing 46 obstacles on layer 5
+[INFO] Reducing resources of layer 1 by 99%
+[INFO] WIRELEN : 4229722, WIRELEN1 : 0
+[INFO] NumSeg  : 544097
+[INFO] NumShift: 0
+First L Route
+[INFO] WIRELEN : 4234593, WIRELEN1 : 4234593
+[INFO] NumSeg  : 542852
+[INFO] NumShift: 18760
+[Overflow Report] Total hCap    : 7370222
+[Overflow Report] Total vCap    : 5738072
+[Overflow Report] Total Usage   : 4234593
+[Overflow Report] Max H Overflow: 5
+[Overflow Report] Max V Overflow: 4
+[Overflow Report] Max Overflow  : 5
+[Overflow Report] Num Overflow e: 441
+[Overflow Report] H   Overflow  : 185
+[Overflow Report] V   Overflow  : 465
+[Overflow Report] Final Overflow: 650
+
+Second L Route
+[Overflow Report] Total hCap    : 7370222
+[Overflow Report] Total vCap    : 5738072
+[Overflow Report] Total Usage   : 4234593
+[Overflow Report] Max H Overflow: 5
+[Overflow Report] Max V Overflow: 3
+[Overflow Report] Max Overflow  : 5
+[Overflow Report] Num Overflow e: 220
+[Overflow Report] H   Overflow  : 106
+[Overflow Report] V   Overflow  : 196
+[Overflow Report] Final Overflow: 302
+
+First Z Route
+[Overflow Report] Total hCap    : 7370222
+[Overflow Report] Total vCap    : 5738072
+[Overflow Report] Total Usage   : 4234593
+[Overflow Report] Max H Overflow: 2
+[Overflow Report] Max V Overflow: 3
+[Overflow Report] Max Overflow  : 3
+[Overflow Report] Num Overflow e: 57
+[Overflow Report] H   Overflow  : 31
+[Overflow Report] V   Overflow  : 40
+[Overflow Report] Final Overflow: 71
+
+[INFO] LV routing round 0, enlarge 10 
+[INFO] 10 threshold, 10 expand
+[Overflow Report] total Usage   : 4234651
+[Overflow Report] Max H Overflow: 1
+[Overflow Report] Max V Overflow: 7
+[Overflow Report] Max Overflow  : 7
+[Overflow Report] Num Overflow e: 1061
+[Overflow Report] H   Overflow  : 1
+[Overflow Report] V   Overflow  : 1702
+[Overflow Report] Final Overflow: 1703
+
+[INFO] LV routing round 1, enlarge 15 
+[INFO] 5 threshold, 15 expand
+[Overflow Report] total Usage   : 4234637
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 5
+[Overflow Report] Max Overflow  : 5
+[Overflow Report] Num Overflow e: 733
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 1060
+[Overflow Report] Final Overflow: 1060
+
+[INFO] LV routing round 2, enlarge 20 
+[INFO] 1 threshold, 20 expand
+[Overflow Report] total Usage   : 4234635
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 5
+[Overflow Report] Max Overflow  : 5
+[Overflow Report] Num Overflow e: 637
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 953
+[Overflow Report] Final Overflow: 953
+
+Running extra iterations to remove overflow...
+Update congestion history type 1
+[INFO] iteration 1, enlarge 20, costheight 6, threshold 10 via cost 2 
+[INFO] log_coef 0.766449, healingTrigger 0 cost_step 2 L 1 cost_type 1 updatetype 1
+[Overflow Report] total Usage   : 4236682
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 1
+[Overflow Report] Max Overflow  : 1
+[Overflow Report] Num Overflow e: 4
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 4
+[Overflow Report] Final Overflow: 4
+
+Update congestion history type 1
+[INFO] iteration 2, enlarge 25, costheight 11, threshold 6 via cost 2 
+[INFO] log_coef 2.000000, healingTrigger 0 cost_step 5 L 1 cost_type 1 updatetype 1
+[Overflow Report] total Usage   : 4236676
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Usage checked
+Maze routing finished
+[INFO] P3 runtime: 0.920000 sec
+[INFO] Final 2D results: 
+[Overflow Report] total Usage   : 4236676
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Layer Assignment Begins
+Layer assignment finished
+[INFO] 2D + Layer Assignment Runtime: 9.950000 sec
+Post Processing Begins 
+Post Processsing finished
+ Starting via filling
+[INFO] Via related to pin nodes 1074293
+[INFO] Via related stiner nodes 69498
+Via filling finished
+
+Final usage/overflow report: 
+[INFO] Usage per layer: 
+    Layer 1 usage: 0
+    Layer 2 usage: 1759764
+    Layer 3 usage: 1811820
+    Layer 4 usage: 308803
+    Layer 5 usage: 356720
+    Layer 6 usage: 4348
+
+[INFO] Capacity per layer: 
+    Layer 1 capacity: 0
+    Layer 2 capacity: 4232192
+    Layer 3 capacity: 3927552
+    Layer 4 capacity: 2615790
+    Layer 5 capacity: 1810520
+    Layer 6 capacity: 522240
+
+[INFO] Use percentage per layer: 
+    Layer 1 use percentage: 0.0%
+    Layer 2 use percentage: 41.58%
+    Layer 3 use percentage: 46.13%
+    Layer 4 use percentage: 11.81%
+    Layer 5 use percentage: 19.70%
+    Layer 6 use percentage: 0.83%
+
+[INFO] Overflow per layer: 
+    Layer 1 overflow: 0
+    Layer 2 overflow: 0
+    Layer 3 overflow: 0
+    Layer 4 overflow: 0
+    Layer 5 overflow: 0
+    Layer 6 overflow: 0
+
+[Overflow Report] Total Usage   : 4241455
+[Overflow Report] Total Capacity: 13108294
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] Final usage          : 4241455
+[INFO] Final number of vias : 1311173
+[INFO] Final usage 3D       : 8174974
+[INFO] Total wirelength: 34159788 um
+[INFO] Num routed nets: 236880
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, line 32 default_operating_condition ss_100C_1v60 not found.
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib, line 31 default_operating_condition ff_n40C_1v95 not found.
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 2.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 2.0
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]

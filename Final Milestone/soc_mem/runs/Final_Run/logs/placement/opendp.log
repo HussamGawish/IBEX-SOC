@@ -1,0 +1,47 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/placement/openphysyn.def
+Notice 0: Design: openstriVe_soc_mem
+Notice 0: 		Created 100000 Insts
+Notice 0: 		Created 200000 Insts
+Notice 0: 		Created 300000 Insts
+Notice 0: 		Created 100000 Nets
+Notice 0: 		Created 200000 Nets
+Notice 0:     Created 94 pins.
+Notice 0:     Created 392762 components and 1535991 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 228369 nets and 750467 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/placement/openphysyn.def
+Design Stats
+--------------------------------
+total instances        392762
+multi row instances         0
+fixed instances        164453
+nets                   228371
+design area          12372946.6 u^2
+fixed area           212234.8 u^2
+movable area         3094774.4 u^2
+utilization                25 %
+utilization padded         44 %
+rows                     1293
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement   702825.7 u
+average displacement      1.8 u
+max displacement         69.4 u
+original HPWL        26178525.3 u
+legalized HPWL       26671433.2 u
+delta HPWL                  2 %
+

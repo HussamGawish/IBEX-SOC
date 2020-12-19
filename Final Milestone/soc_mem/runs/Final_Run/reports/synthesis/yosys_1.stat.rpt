@@ -1,0 +1,35 @@
+
+22. Printing statistics.
+
+=== openstriVe_soc_mem ===
+
+   Number of wires:             228285
+   Number of wire bits:         228371
+   Number of public wires:       32776
+   Number of public wire bits:   32862
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             228309
+     sky130_fd_sc_hd__a211o_4     1440
+     sky130_fd_sc_hd__a21bo_4      172
+     sky130_fd_sc_hd__a21o_4     25604
+     sky130_fd_sc_hd__a21oi_4       32
+     sky130_fd_sc_hd__and2_4         2
+     sky130_fd_sc_hd__and3_4       606
+     sky130_fd_sc_hd__and4_4      6884
+     sky130_fd_sc_hd__buf_2      53888
+     sky130_fd_sc_hd__dfxtp_4    32800
+     sky130_fd_sc_hd__inv_2      19362
+     sky130_fd_sc_hd__nand2_4     5864
+     sky130_fd_sc_hd__nand3_4    21500
+     sky130_fd_sc_hd__nand4_4    18961
+     sky130_fd_sc_hd__nor2_4      4370
+     sky130_fd_sc_hd__nor3_4      5486
+     sky130_fd_sc_hd__nor4_4        10
+     sky130_fd_sc_hd__o21a_4     11904
+     sky130_fd_sc_hd__o21ai_4    18896
+     sky130_fd_sc_hd__or2_4        528
+
+   Chip area for module '\openstriVe_soc_mem': 3094774.383999
+

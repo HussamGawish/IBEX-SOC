@@ -1,0 +1,39 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/floorplan/verilog2def_openroad.def
+Notice 0: Design: openstriVe_soc_mem
+Notice 0: 		Created 100000 Insts
+Notice 0: 		Created 200000 Insts
+Notice 0: 		Created 100000 Nets
+Notice 0: 		Created 200000 Nets
+Notice 0:     Created 92 pins.
+Notice 0:     Created 228309 components and 1207085 component-terminals.
+Notice 0:     Created 228369 nets and 750467 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/floorplan/verilog2def_openroad.def
+#Macro blocks found: 0
+Using 5u default boundaries offset
+Using 2 tracks default min distance between IO pins
+ > Running IO placement
+ * Num of slots          12854
+ * Num of I/O            92
+ * Num of I/O w/sink     80
+ * Num of I/O w/o sink   12
+ * Slots Per Section     200
+ * Slots Increase Factor 0.01
+ * Usage Per Section     0.8
+ * Usage Increase Factor 0.01
+ * Force Pin Spread      1
+
+Random pin placement
+RandomMode Even
+ > IO placement done.

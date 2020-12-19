@@ -1,0 +1,23 @@
+
+10. Printing statistics.
+
+=== openstriVe_soc_mem ===
+
+   Number of wires:              38990
+   Number of wire bits:          70820
+   Number of public wires:        1032
+   Number of public wire bits:   32862
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              70758
+     $_ANDNOT_                    4092
+     $_AND_                          8
+     $_DFFE_PP_                  32800
+     $_MUX_                      32736
+     $_NAND_                         4
+     $_NOR_                          1
+     $_NOT_                          2
+     $_ORNOT_                        8
+     $_OR_                        1107
+

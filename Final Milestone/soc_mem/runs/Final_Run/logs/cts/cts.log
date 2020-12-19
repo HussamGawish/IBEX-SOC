@@ -1,0 +1,225 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 pin VPB missing from LEF macro
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/results/placement/openstriVe_soc_mem.placement.def
+Notice 0: Design: openstriVe_soc_mem
+Notice 0: 		Created 100000 Insts
+Notice 0: 		Created 200000 Insts
+Notice 0: 		Created 300000 Insts
+Notice 0: 		Created 100000 Nets
+Notice 0: 		Created 200000 Nets
+Notice 0:     Created 94 pins.
+Notice 0:     Created 392762 components and 1535991 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 228369 nets and 750467 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/results/placement/openstriVe_soc_mem.placement.def
+[INFO]: Setting output delay to: 2.0
+[INFO]: Setting input delay to: 2.0
+[INFO]: Setting load to: 0.01765
+[INFO]: Configuring cts characterization...
+[INFO]: Performing clock tree synthesis...
+[INFO]: Looking for the following net(s): clk
+ *****************
+ * TritonCTS 2.0 *
+ *****************
+ *****************************
+ *  Create characterization  *
+ *****************************
+Number of created patterns = 50000.
+Number of created patterns = 100000.
+Number of created patterns = 150000.
+Number of created patterns = 200000.
+Number of created patterns = 250000.
+Number of created patterns = 300000.
+Number of created patterns = 313632.
+ Compiling LUT
+    Min. len    Max. len    Min. cap    Max. cap   Min. slew   Max. slew
+           2           8           1          39           1         199
+    [WARNING] 6336 wires are pure wire and no slew degration.
+    TritonCTS forced slew degradation on these wires.
+    Num wire segments: 216480
+    Num keys in characterization LUT: 1875
+    Actual min input cap: 2
+ **********************
+ *  Find clock roots  *
+ **********************
+ Running TritonCTS with user-specified clock roots: clk
+ ************************
+ *  Populate TritonCTS  *
+ ************************
+ Initializing clock nets
+ Looking for clock nets in the design
+ Net "clk" found
+ Initializing clock net for : "clk"
+ Clock net "clk" has 32800 sinks
+ TritonCTS found 1 clock nets.
+ ****************************
+ *  Check characterization  *
+ ****************************
+    The chacterization used 4 buffer(s) types. All of them are in the loaded DB.
+ ***********************
+ *  Build clock trees  *
+ ***********************
+ Generating H-Tree topology for net clk...
+    Tot. number of sinks: 32800
+    Number of static layers: 0
+ Wire segment unit: 13000 dbu (13 um)
+ Original sink region: [(93185, 134580), (3447045, 3363340)]
+ Normalized sink region: [(7.16808, 10.3523), (265.157, 258.718)]
+    Width:  257.989
+    Height: 248.366
+ Level 1
+    Direction: Horizontal
+    # sinks per sub-region: 16400
+    Sub-region size: 128.995 X 248.366
+    Segment length (rounded): 64
+    Key: 9408 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+ Level 2
+    Direction: Vertical
+    # sinks per sub-region: 8200
+    Sub-region size: 128.995 X 124.183
+    Segment length (rounded): 62
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 1639 outSlew: 11 load: 1 length: 6 isBuffered: 1
+ Level 3
+    Direction: Horizontal
+    # sinks per sub-region: 4100
+    Sub-region size: 64.4973 X 124.183
+    Segment length (rounded): 32
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+ Level 4
+    Direction: Vertical
+    # sinks per sub-region: 2050
+    Sub-region size: 64.4973 X 62.0915
+    Segment length (rounded): 32
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+ Level 5
+    Direction: Horizontal
+    # sinks per sub-region: 1025
+    Sub-region size: 32.2487 X 62.0915
+    Segment length (rounded): 16
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+ Level 6
+    Direction: Vertical
+    # sinks per sub-region: 513
+    Sub-region size: 32.2487 X 31.0458
+    Segment length (rounded): 16
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+ Level 7
+    Direction: Horizontal
+    # sinks per sub-region: 257
+    Sub-region size: 16.1243 X 31.0458
+    Segment length (rounded): 8
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+ Level 8
+    Direction: Vertical
+    # sinks per sub-region: 129
+    Sub-region size: 16.1243 X 15.5229
+    Segment length (rounded): 8
+    Key: 7971 outSlew: 11 load: 1 length: 8 isBuffered: 1
+ Level 9
+    Direction: Horizontal
+    # sinks per sub-region: 65
+    Sub-region size: 8.06216 X 15.5229
+    Segment length (rounded): 4
+    Key: 337 outSlew: 11 load: 1 length: 4 isBuffered: 1
+ Level 10
+    Direction: Vertical
+    # sinks per sub-region: 33
+    Sub-region size: 8.06216 X 7.76144
+    Segment length (rounded): 4
+    Key: 337 outSlew: 11 load: 1 length: 4 isBuffered: 1
+ Level 11
+    Direction: Horizontal
+    # sinks per sub-region: 17
+    Sub-region size: 4.03108 X 7.76144
+    Segment length (rounded): 2
+    Key: 53 outSlew: 11 load: 1 length: 2 isBuffered: 1
+ [WARNING] Creating fake entries in the LUT.
+ Level 12
+    Direction: Vertical
+    # sinks per sub-region: 9
+    Sub-region size: 4.03108 X 3.88072
+    Segment length (rounded): 1
+    Key: 216721 outSlew: 11 load: 1 length: 1 isBuffered: 1
+ Stop criterion found. Max number of sinks is (15)
+ Building clock sub nets...
+ Number of sinks covered: 32800
+ Clock topology of net "clk" done.
+ ****************
+ * Post CTS opt *
+ ****************
+ Avg. source sink dist: 31088.7 dbu.
+ Num outlier sinks: 122
+ ********************
+ * Write data to DB *
+ ********************
+ Writing clock net "clk" to DB
+    Created 8523 clock buffers.
+    Minimum number of buffers in the clock path: 35.
+    Maximum number of buffers in the clock path: 36.
+    Created 8523 clock nets.
+    Fanout distribution for the current clock = 2:15, 3:89, 4:283, 5:364, 6:572, 7:598, 8:618, 9:505, 10:404, 11:234, 12:144, 13:108, 14:58, 15:26, 16:22, 17:10, 18:9, 19:15, 20:3, 21:4, 22:4, 23:2, 24:2, 25:1, 26:1, 27:2, 31:1, 32:1, 33:1.
+    Max level of the clock tree: 12.
+ ... End of TritonCTS execution.
+[INFO]: Legalizing...
+Design Stats
+--------------------------------
+total instances        401285
+multi row instances         0
+fixed instances        164453
+nets                   236894
+design area          12372946.6 u^2
+fixed area           212234.8 u^2
+movable area         3129382.6 u^2
+utilization                26 %
+utilization padded         26 %
+rows                     1293
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement    28312.3 u
+average displacement      0.1 u
+max displacement         42.8 u
+original HPWL        27255616.5 u
+legalized HPWL       27259424.7 u
+delta HPWL                  0 %
+

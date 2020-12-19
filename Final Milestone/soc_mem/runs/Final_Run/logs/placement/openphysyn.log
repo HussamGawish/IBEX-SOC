@@ -1,0 +1,145 @@
+[OpenPhySyn] [2020-12-18 21:32:49.558] [info] Loaded 6 transforms.
+[OpenPhySyn] [2020-12-18 21:32:50.073] [info] OpenPhySyn: 1.8.1
+Warning: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/opt.lib, line 32 default_operating_condition ss_100C_1v60 not found.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/placement/replace.def
+Notice 0: Design: openstriVe_soc_mem
+Notice 0: 		Created 100000 Insts
+Notice 0: 		Created 200000 Insts
+Notice 0: 		Created 300000 Insts
+Notice 0: 		Created 100000 Nets
+Notice 0: 		Created 200000 Nets
+Notice 0:     Created 94 pins.
+Notice 0:     Created 392762 components and 1535991 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 228369 nets and 750467 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/soc_mem/runs/18-12_21-23/tmp/placement/replace.def
+[INFO]: Setting output delay to: 2.0
+[INFO]: Setting input delay to: 2.0
+[INFO]: Setting load to: 0.01765
+=============== Initial Reports =============
+Startpoint: addr[0] (input port clocked by clk)
+Endpoint: _418385_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 v input external delay
+   0.06    2.06 v addr[0] (in)
+   0.27    2.32 v _196000_/X (sky130_fd_sc_hd__buf_2)
+   0.28    2.61 v _199174_/X (sky130_fd_sc_hd__buf_2)
+   0.29    2.90 v _199175_/X (sky130_fd_sc_hd__buf_2)
+   0.30    3.20 v _199176_/X (sky130_fd_sc_hd__buf_2)
+   0.32    3.52 v _199177_/X (sky130_fd_sc_hd__buf_2)
+   0.35    3.88 v _199178_/X (sky130_fd_sc_hd__buf_2)
+   0.43    4.31 v _199179_/X (sky130_fd_sc_hd__buf_2)
+   0.61    4.92 ^ _200592_/Y (sky130_fd_sc_hd__nor4_4)
+   0.39    5.31 ^ _203881_/X (sky130_fd_sc_hd__buf_2)
+   0.36    5.68 ^ _210931_/X (sky130_fd_sc_hd__buf_2)
+   0.62    6.30 ^ _217597_/X (sky130_fd_sc_hd__buf_2)
+   0.50    6.81 v _217623_/Y (sky130_fd_sc_hd__nand3_4)
+   0.39    7.20 v _217624_/X (sky130_fd_sc_hd__buf_2)
+   0.40    7.59 v _217626_/X (sky130_fd_sc_hd__a21o_4)
+   0.00    7.59 v _418385_/D (sky130_fd_sc_hd__dfxtp_4)
+           7.59   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ _418385_/CLK (sky130_fd_sc_hd__dfxtp_4)
+  -0.28    9.72   library setup time
+           9.72   data required time
+---------------------------------------------------------
+           9.72   data required time
+          -7.59   data arrival time
+---------------------------------------------------------
+           2.12   slack (MET)
+
+
+Capacitance violations: 0
+Transition violations: 0
+wns 0.00
+tns 0.00
+Initial area: 33297613 um2
+OpenPhySyn timing repair:
+[OpenPhySyn] [2020-12-18 21:33:18.989] [info] Invoking repair_timing transform
+[OpenPhySyn] [2020-12-18 21:33:20.450] [info] Buffer library: sky130_fd_sc_hd__buf_2, sky130_fd_sc_hd__buf_4, sky130_fd_sc_hd__buf_8
+[OpenPhySyn] [2020-12-18 21:33:20.450] [info] Inverter library: None
+[OpenPhySyn] [2020-12-18 21:33:20.450] [info] Buffering: enabled
+[OpenPhySyn] [2020-12-18 21:33:20.450] [info] Driver sizing: enabled
+[OpenPhySyn] [2020-12-18 21:33:20.450] [info] Pin-swapping: enabled
+[OpenPhySyn] [2020-12-18 21:33:20.450] [info] Mode: Timing-Driven
+[OpenPhySyn] [2020-12-18 21:33:20.450] [info] Iteration 1
+[OpenPhySyn] [2020-12-18 21:34:16.370] [info] No more violations or cannot find more optimal buffer
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Runtime: 55s
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Buffers: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Resize up: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Resize down: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Pin Swap: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Buffered nets: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Fanout violations: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Transition violations: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Capacitance violations: 0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Slack gain: 0.0
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Initial area: 3329761
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] New area: 3329761
+[OpenPhySyn] [2020-12-18 21:34:16.385] [info] Finished repair_timing transform (0)
+Added/updated 0 cells
+=============== Final Reports =============
+Startpoint: addr[0] (input port clocked by clk)
+Endpoint: _418385_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 v input external delay
+   0.06    2.06 v addr[0] (in)
+   0.27    2.32 v _196000_/X (sky130_fd_sc_hd__buf_2)
+   0.28    2.61 v _199174_/X (sky130_fd_sc_hd__buf_2)
+   0.29    2.90 v _199175_/X (sky130_fd_sc_hd__buf_2)
+   0.30    3.20 v _199176_/X (sky130_fd_sc_hd__buf_2)
+   0.32    3.52 v _199177_/X (sky130_fd_sc_hd__buf_2)
+   0.35    3.88 v _199178_/X (sky130_fd_sc_hd__buf_2)
+   0.43    4.31 v _199179_/X (sky130_fd_sc_hd__buf_2)
+   0.61    4.92 ^ _200592_/Y (sky130_fd_sc_hd__nor4_4)
+   0.39    5.31 ^ _203881_/X (sky130_fd_sc_hd__buf_2)
+   0.36    5.68 ^ _210931_/X (sky130_fd_sc_hd__buf_2)
+   0.62    6.30 ^ _217597_/X (sky130_fd_sc_hd__buf_2)
+   0.50    6.81 v _217623_/Y (sky130_fd_sc_hd__nand3_4)
+   0.39    7.20 v _217624_/X (sky130_fd_sc_hd__buf_2)
+   0.40    7.59 v _217626_/X (sky130_fd_sc_hd__a21o_4)
+   0.00    7.59 v _418385_/D (sky130_fd_sc_hd__dfxtp_4)
+           7.59   data arrival time
+
+  10.00   10.00   clock clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ _418385_/CLK (sky130_fd_sc_hd__dfxtp_4)
+  -0.28    9.72   library setup time
+           9.72   data required time
+---------------------------------------------------------
+           9.72   data required time
+          -7.59   data arrival time
+---------------------------------------------------------
+           2.12   slack (MET)
+
+
+Capacitance violations: 0
+Transition violations: 0
+wns 0.00
+tns 0.00
+Final area: 33297613 um2
+Export optimized design
