@@ -1,0 +1,256 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 pin VPB missing from liberty cell
+Warning: LEF macro sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 pin VPB missing from liberty cell
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/fastroute_3.def
+Notice 0: Design: ibex_wrapper
+Notice 0:     Created 132 pins.
+Notice 0:     Created 43202 components and 169866 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 25008 nets and 83459 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/fastroute_3.def
+[PARAMS] Min routing layer: 2
+[PARAMS] Max routing layer: 6
+[PARAMS] Global adjustment: 0
+[PARAMS] Unidirectional routing: 1
+[PARAMS] Grid origin: (-1, -1)
+[INFO] #DB Obstructions: 0
+[INFO] #DB Obstacles: 1253514
+[INFO] #DB Macros: 0
+[INFO] Found 0 clock nets
+[INFO] Minimum degree: 2
+[INFO] Maximum degree: 1669
+[INFO] Processing 892735 obstacles on layer 1
+[INFO] Processing 128050 obstacles on layer 2
+[INFO] Processing 15 obstacles on layer 5
+[INFO] Reducing resources of layer 1 by 99%
+[INFO] WIRELEN : 263233, WIRELEN1 : 0
+[INFO] NumSeg  : 60740
+[INFO] NumShift: 0
+First L Route
+[INFO] WIRELEN : 263099, WIRELEN1 : 263099
+[INFO] NumSeg  : 60590
+[INFO] NumShift: 2162
+[Overflow Report] Total hCap    : 801526
+[Overflow Report] Total vCap    : 624145
+[Overflow Report] Total Usage   : 263099
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Second L Route
+[Overflow Report] Total hCap    : 801526
+[Overflow Report] Total vCap    : 624145
+[Overflow Report] Total Usage   : 263099
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+First Z Route
+[Overflow Report] Total hCap    : 801526
+[Overflow Report] Total vCap    : 624145
+[Overflow Report] Total Usage   : 263099
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] LV routing round 0, enlarge 10 
+[INFO] 10 threshold, 10 expand
+[Overflow Report] total Usage   : 263099
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 6
+[Overflow Report] Max Overflow  : 6
+[Overflow Report] Num Overflow e: 38
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 98
+[Overflow Report] Final Overflow: 98
+
+[INFO] LV routing round 1, enlarge 15 
+[INFO] 5 threshold, 15 expand
+[Overflow Report] total Usage   : 263099
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] LV routing round 2, enlarge 20 
+[INFO] 1 threshold, 20 expand
+[Overflow Report] total Usage   : 263099
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Usage checked
+Maze routing finished
+[INFO] P3 runtime: 0.010000 sec
+[INFO] Final 2D results: 
+[Overflow Report] total Usage   : 263099
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] Num Overflow e: 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+Layer Assignment Begins
+Layer assignment finished
+[INFO] 2D + Layer Assignment Runtime: 5.150000 sec
+Post Processing Begins 
+Post Processsing finished
+ Starting via filling
+[INFO] Via related to pin nodes 116213
+[INFO] Via related stiner nodes 8354
+Via filling finished
+
+Final usage/overflow report: 
+[INFO] Usage per layer: 
+    Layer 1 usage: 0
+    Layer 2 usage: 123627
+    Layer 3 usage: 122217
+    Layer 4 usage: 13781
+    Layer 5 usage: 4051
+    Layer 6 usage: 0
+
+[INFO] Capacity per layer: 
+    Layer 1 capacity: 0
+    Layer 2 capacity: 461347
+    Layer 3 capacity: 427063
+    Layer 4 capacity: 283733
+    Layer 5 capacity: 197082
+    Layer 6 capacity: 56446
+
+[INFO] Use percentage per layer: 
+    Layer 1 use percentage: 0.0%
+    Layer 2 use percentage: 26.80%
+    Layer 3 use percentage: 28.62%
+    Layer 4 use percentage: 4.86%
+    Layer 5 use percentage: 2.06%
+    Layer 6 use percentage: 0.00%
+
+[INFO] Overflow per layer: 
+    Layer 1 overflow: 0
+    Layer 2 overflow: 0
+    Layer 3 overflow: 0
+    Layer 4 overflow: 0
+    Layer 5 overflow: 0
+    Layer 6 overflow: 0
+
+[Overflow Report] Total Usage   : 263676
+[Overflow Report] Total Capacity: 1425671
+[Overflow Report] Max H Overflow: 0
+[Overflow Report] Max V Overflow: 0
+[Overflow Report] Max Overflow  : 0
+[Overflow Report] H   Overflow  : 0
+[Overflow Report] V   Overflow  : 0
+[Overflow Report] Final Overflow: 0
+
+[INFO] Final usage          : 263676
+[INFO] Final number of vias : 139551
+[INFO] Final usage 3D       : 682329
+[INFO] Total wirelength: 2342280 um
+[INFO] Num routed nets: 25008
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, line 32 default_operating_condition ss_100C_1v60 not found.
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib, line 31 default_operating_condition ff_n40C_1v95 not found.
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 2.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 2.0
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]
+Warning: missing route to pin _47280_/RESET_B
+Warning: missing route to pin _47278_/RESET_B
+Warning: missing route to pin _47232_/RESET_B
+Warning: missing route to pin _47222_/RESET_B
+Warning: missing route to pin _47100_/RESET_B
+Warning: missing route to pin _47089_/SET_B
+Warning: missing route to pin _47073_/RESET_B
+Warning: missing route to pin _47054_/RESET_B
+Warning: missing route to pin _47001_/RESET_B
+Warning: missing route to pin _46985_/RESET_B
+Warning: missing route to pin _46972_/RESET_B
+Warning: missing route to pin _46935_/RESET_B
+Warning: missing route to pin _46932_/RESET_B
+Warning: missing route to pin _46931_/RESET_B
+Warning: missing route to pin _46860_/RESET_B
+Warning: missing route to pin _46779_/RESET_B
+Warning: missing route to pin _46772_/RESET_B
+Warning: missing route to pin _46725_/RESET_B
+Warning: missing route to pin _46708_/RESET_B
+Warning: missing route to pin _46679_/RESET_B
+Warning: missing route to pin _46678_/RESET_B
+Warning: missing route to pin _46660_/RESET_B
+Warning: missing route to pin _46646_/RESET_B
+Warning: missing route to pin _46468_/RESET_B
+Warning: missing route to pin _46402_/RESET_B
+Warning: missing route to pin _46358_/RESET_B
+Warning: missing route to pin _46326_/RESET_B
+Warning: missing route to pin _46311_/RESET_B
+Warning: missing route to pin _46295_/RESET_B
+Warning: missing route to pin _46248_/RESET_B
+Warning: missing route to pin _46246_/RESET_B
+Warning: missing route to pin _46231_/RESET_B
+Warning: missing route to pin _46227_/RESET_B
+Warning: missing route to pin _46214_/RESET_B
+Warning: missing route to pin _46178_/RESET_B
+Warning: missing route to pin _46107_/RESET_B
+Warning: missing route to pin _46090_/RESET_B
+Warning: missing route to pin _46086_/RESET_B
+Warning: missing route to pin _46075_/RESET_B
+Warning: missing route to pin _46043_/RESET_B
+Warning: missing route to pin _45994_/RESET_B
+Warning: missing route to pin _45935_/RESET_B
+Warning: missing route to pin _45914_/RESET_B
+Warning: missing route to pin _45802_/RESET_B
+Warning: missing route to pin _45788_/RESET_B
+Warning: missing route to pin _45724_/RESET_B

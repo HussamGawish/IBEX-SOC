@@ -1,0 +1,42 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/placement/openphysyn.def
+Notice 0: Design: ibex_wrapper
+Notice 0:     Created 132 pins.
+Notice 0:     Created 42734 components and 168192 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 24738 nets and 82721 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/placement/openphysyn.def
+Design Stats
+--------------------------------
+total instances         42734
+multi row instances         0
+fixed instances         18056
+nets                    24740
+design area          1325261.0 u^2
+fixed area            24708.7 u^2
+movable area         331849.5 u^2
+utilization                26 %
+utilization padded         45 %
+rows                      423
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement   103067.2 u
+average displacement      2.4 u
+max displacement         38.9 u
+original HPWL        1573340.0 u
+legalized HPWL       1655285.5 u
+delta HPWL                  5 %
+

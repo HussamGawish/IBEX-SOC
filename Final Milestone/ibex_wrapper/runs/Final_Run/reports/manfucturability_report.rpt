@@ -1,0 +1,20 @@
+Design Name: ibex_wrapper
+Run Directory: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/magic/magic.drc
+Violation Message "Min area of metal1 holes > 0.14um^2 (met1.7) "found 76 Times.
+Total Magic DRC violations is 76
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/lvs/ibex_wrapper.lvs_parsed.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/reports/routing/antenna.rpt
+Number of pins violated: 71
+Number of nets violated: 59

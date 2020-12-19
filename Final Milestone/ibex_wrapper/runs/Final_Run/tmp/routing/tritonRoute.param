@@ -1,0 +1,11 @@
+lef:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+def:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/addspacers.def
+guide:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/fastroute.guide
+output:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/routing/ibex_wrapper.def
+outputTA:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/tritonRoute_TA.def
+outputguide:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/tritonRoute.guide
+outputDRC:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/reports/routing/tritonRoute.drc
+outputMaze:/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/tritonRoute_maze.log
+threads:4
+verbose:1
+drouteEndIterNum:64

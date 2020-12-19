@@ -1,0 +1,22 @@
+Notice 0: Reading LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/routing/ibex_wrapper.def
+Notice 0: Design: ibex_wrapper
+Notice 0: 		Created 100000 Insts
+Notice 0:     Created 145 pins.
+Notice 0:     Created 131308 components and 346078 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 25008 nets and 83459 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/routing/ibex_wrapper.def
+Top-level design name: ibex_wrapper
+Default power net:  VPWR
+Default ground net: VGND
+Found a total of 1 power ports.
+Found a total of 1 ground ports.
+Modified power connections of 131308 cells (Remaining: 0 ).

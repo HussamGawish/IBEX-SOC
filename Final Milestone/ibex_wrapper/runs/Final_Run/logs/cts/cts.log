@@ -1,0 +1,170 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 pin VPB missing from LEF macro
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/placement/ibex_wrapper.placement.def
+Notice 0: Design: ibex_wrapper
+Notice 0:     Created 132 pins.
+Notice 0:     Created 42734 components and 168192 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 24738 nets and 82721 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/placement/ibex_wrapper.placement.def
+[INFO]: Setting output delay to: 2.0
+[INFO]: Setting input delay to: 2.0
+[INFO]: Setting load to: 0.01765
+[INFO]: Configuring cts characterization...
+[INFO]: Performing clock tree synthesis...
+[INFO]: Looking for the following net(s): HCLK
+ *****************
+ * TritonCTS 2.0 *
+ *****************
+ *****************************
+ *  Create characterization  *
+ *****************************
+Number of created patterns = 50000.
+Number of created patterns = 100000.
+Number of created patterns = 150000.
+Number of created patterns = 200000.
+Number of created patterns = 250000.
+Number of created patterns = 300000.
+Number of created patterns = 313632.
+ Compiling LUT
+    Min. len    Max. len    Min. cap    Max. cap   Min. slew   Max. slew
+           2           8           1          39           1         199
+    [WARNING] 6336 wires are pure wire and no slew degration.
+    TritonCTS forced slew degradation on these wires.
+    Num wire segments: 216480
+    Num keys in characterization LUT: 1875
+    Actual min input cap: 2
+ **********************
+ *  Find clock roots  *
+ **********************
+ Running TritonCTS with user-specified clock roots: HCLK
+ ************************
+ *  Populate TritonCTS  *
+ ************************
+ Initializing clock nets
+ Looking for clock nets in the design
+ Net "HCLK" found
+ Initializing clock net for : "HCLK"
+ Clock net "HCLK" has 1009 sinks
+ TritonCTS found 1 clock nets.
+ ****************************
+ *  Check characterization  *
+ ****************************
+    The chacterization used 4 buffer(s) types. All of them are in the loaded DB.
+ ***********************
+ *  Build clock trees  *
+ ***********************
+ Generating H-Tree topology for net HCLK...
+    Tot. number of sinks: 1009
+    Number of static layers: 0
+ Wire segment unit: 13000 dbu (13 um)
+ Original sink region: [(408745, 17740), (975465, 599820)]
+ Normalized sink region: [(31.4419, 1.36462), (75.0358, 46.14)]
+    Width:  43.5938
+    Height: 44.7754
+ Level 1
+    Direction: Vertical
+    # sinks per sub-region: 505
+    Sub-region size: 43.5938 X 22.3877
+    Segment length (rounded): 12
+    Key: 9408 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 339 outSlew: 11 load: 1 length: 4 isBuffered: 1
+ Level 2
+    Direction: Horizontal
+    # sinks per sub-region: 253
+    Sub-region size: 21.7969 X 22.3877
+    Segment length (rounded): 10
+    Key: 9417 outSlew: 34 load: 1 length: 8 isBuffered: 1
+    Key: 55 outSlew: 11 load: 1 length: 2 isBuffered: 1
+ Level 3
+    Direction: Vertical
+    # sinks per sub-region: 127
+    Sub-region size: 21.7969 X 11.1938
+    Segment length (rounded): 6
+    Key: 1881 outSlew: 23 load: 1 length: 6 isBuffered: 1
+ Level 4
+    Direction: Horizontal
+    # sinks per sub-region: 64
+    Sub-region size: 10.8985 X 11.1938
+    Segment length (rounded): 6
+    Key: 1639 outSlew: 11 load: 1 length: 6 isBuffered: 1
+ Level 5
+    Direction: Vertical
+    # sinks per sub-region: 32
+    Sub-region size: 10.8985 X 5.59692
+    Segment length (rounded): 2
+    Key: 53 outSlew: 11 load: 1 length: 2 isBuffered: 1
+ Level 6
+    Direction: Horizontal
+    # sinks per sub-region: 16
+    Sub-region size: 5.44923 X 5.59692
+    Segment length (rounded): 2
+    Key: 53 outSlew: 11 load: 1 length: 2 isBuffered: 1
+ [WARNING] Creating fake entries in the LUT.
+ Level 7
+    Direction: Vertical
+    # sinks per sub-region: 8
+    Sub-region size: 5.44923 X 2.79846
+    Segment length (rounded): 1
+    Key: 216721 outSlew: 11 load: 1 length: 1 isBuffered: 1
+ Stop criterion found. Max number of sinks is (15)
+ Building clock sub nets...
+ Number of sinks covered: 1009
+ Clock topology of net "HCLK" done.
+ ****************
+ * Post CTS opt *
+ ****************
+ Avg. source sink dist: 39569.3 dbu.
+ Num outlier sinks: 9
+ ********************
+ * Write data to DB *
+ ********************
+ Writing clock net "HCLK" to DB
+    Created 270 clock buffers.
+    Minimum number of buffers in the clock path: 10.
+    Maximum number of buffers in the clock path: 11.
+    Created 270 clock nets.
+    Fanout distribution for the current clock = 3:1, 4:10, 5:12, 6:27, 7:19, 8:14, 9:13, 10:12, 11:3, 12:7, 13:5, 14:1, 15:1, 16:1, 17:1, 18:1.
+    Max level of the clock tree: 7.
+ ... End of TritonCTS execution.
+[INFO]: Legalizing...
+Design Stats
+--------------------------------
+total instances         43004
+multi row instances         0
+fixed instances         18056
+nets                    25010
+design area          1325261.0 u^2
+fixed area            24708.7 u^2
+movable area         333075.7 u^2
+utilization                26 %
+utilization padded         26 %
+rows                      423
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement     1095.3 u
+average displacement      0.0 u
+max displacement         14.5 u
+original HPWL        1674875.7 u
+legalized HPWL       1675044.7 u
+delta HPWL                  0 %
+

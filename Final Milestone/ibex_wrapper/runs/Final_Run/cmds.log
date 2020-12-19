@@ -1,0 +1,141 @@
+Fri Dec 18 18:19:58 UTC 2020 - Executing "/openLANE_flow/scripts/mergeLef.py -i /pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef {/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fakediode_2.lef} -o /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Fri Dec 18 18:19:58 UTC 2020 - Executing "/openLANE_flow/scripts/libtrim.pl /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/trimmed.lib"
+
+Fri Dec 18 18:19:59 UTC 2020 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib > /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/sky130_fd_sc_hd__tt_025C_1v80.no_pg.lib"
+
+Fri Dec 18 18:19:59 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts/synth.tcl -l /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/synthesis/yosys.log |& tee >&@stdout"
+
+Fri Dec 18 18:20:43 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:20:43 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:20:43 UTC 2020 - Executing "sed -i /defparam/d /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/synthesis/ibex_wrapper.synthesis.v"
+
+Fri Dec 18 18:20:44 UTC 2020 - Executing "sta /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/synthesis/opensta.log"
+
+Fri Dec 18 18:20:46 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/floorplan/verilog2def.openroad.log"
+
+Fri Dec 18 18:20:47 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/floorplan/ioPlacer.log"
+
+Fri Dec 18 18:20:48 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/floorplan/tapcell.log"
+
+Fri Dec 18 18:20:50 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/new_pdn.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/floorplan/pdn.log"
+
+Fri Dec 18 18:20:53 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/placement/replace.log"
+
+Fri Dec 18 18:21:11 UTC 2020 - Executing "/openLANE_flow/scripts/libtrim.pl /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib /pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/opt.lib"
+
+Fri Dec 18 18:21:12 UTC 2020 - Executing "Psn /openLANE_flow/scripts/openPhySyn.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/placement/openphysyn.log"
+
+Fri Dec 18 18:21:28 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/write_verilog.log"
+
+Fri Dec 18 18:21:29 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis_optimized.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:21:29 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:21:29 UTC 2020 - Executing "sta /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/synthesis/opensta_post_openphysyn.log"
+
+Fri Dec 18 18:21:31 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/placement/opendp.log"
+
+Fri Dec 18 18:21:32 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_cts.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/cts/cts.log"
+
+Fri Dec 18 18:22:35 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/write_verilog.log"
+
+Fri Dec 18 18:22:36 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis_cts.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:22:36 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis_optimized.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:22:36 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/fastroute.log"
+
+Fri Dec 18 18:22:46 UTC 2020 - Executing "python3 /openLANE_flow/scripts/replace_prefix_from_def_instances.py -op ANTENNA -np INSDIODE2 -d /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/fastroute.def"
+
+Fri Dec 18 18:22:47 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/fastroute_2.log"
+
+Fri Dec 18 18:22:58 UTC 2020 - Executing "python3 /openLANE_flow/scripts/replace_prefix_from_def_instances.py -op ANTENNA -np INSDIODE3 -d /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/fastroute_2.def"
+
+Fri Dec 18 18:22:58 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/fastroute_3.log"
+
+Fri Dec 18 18:23:08 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/fastroute_post_antenna.log"
+
+Fri Dec 18 18:23:26 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_fill.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/addspacers.log"
+
+Fri Dec 18 18:23:27 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/write_verilog.log"
+
+Fri Dec 18 18:23:29 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis_preroute.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:23:29 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis_cts.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:23:29 UTC 2020 - Executing "envsubst < /openLANE_flow/scripts/tritonRoute.param > /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/tritonRoute.param"
+
+Fri Dec 18 18:23:29 UTC 2020 - Executing "TritonRoute /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/tritonRoute.param |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/tritonRoute.log"
+
+Fri Dec 18 18:36:17 UTC 2020 - Executing "python3 /openLANE_flow/scripts/tr2klayout.py -i /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/reports/routing/tritonRoute.drc -o /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/reports/routing/tritonRoute.klayout.xml --design-name ibex_wrapper"
+
+Fri Dec 18 18:36:18 UTC 2020 - Executing "python3 /openLANE_flow/scripts/spef_extractor/main.py -l /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef -d /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/routing/ibex_wrapper.def -mw L -ec 1 |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/spef_extraction.log"
+
+Fri Dec 18 18:37:49 UTC 2020 - Executing "sta /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/synthesis/opensta_spef.log"
+
+Fri Dec 18 18:37:57 UTC 2020 - Executing "python3 /openLANE_flow/scripts/write_powered_def.py -d /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/routing/ibex_wrapper.def -l /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged.lef --power-port VPWR --ground-port VGND --powered-netlist {} -o /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/routing/ibex_wrapper.powered.def |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/lvs/write_powered_verilog.log"
+
+Fri Dec 18 18:38:03 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/write_verilog.log"
+
+Fri Dec 18 18:38:06 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts/yosys_rewrite_verilog.tcl -l /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/synthesis/yosys_rewrite_verilog.log"
+
+Fri Dec 18 18:40:00 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/lvs\/ibex_wrapper.lvs.powered.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:40:00 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/ibex_wrapper\/runs\/18-12_18-19\/results\/synthesis\/ibex_wrapper.synthesis_preroute.v/} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/config.tcl"
+
+Fri Dec 18 18:40:00 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/mag_gds.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/magic/magic.log"
+
+Fri Dec 18 18:40:37 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/lef.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/magic/magic.lef.log"
+
+Fri Dec 18 18:41:39 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/maglef.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/magic/magic.maglef.log"
+
+Fri Dec 18 18:41:39 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/magic_spice.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/magic/magic_spice.log"
+
+Fri Dec 18 18:43:28 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts/magic/drc.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/magic/magic.drc.log"
+
+Fri Dec 18 18:50:20 UTC 2020 - Executing "python3 /openLANE_flow/scripts/magic_drc_to_rdb.py --magic_drc_in /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/magic/magic.drc --rdb_out /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/ibex_wrapper.drc.rdb"
+
+Fri Dec 18 18:50:20 UTC 2020 - Executing "netgen -batch lvs {/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/ibex_wrapper.spice ibex_wrapper} {/openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/lvs/ibex_wrapper.lvs.powered.v ibex_wrapper} /pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/lvs/ibex_wrapper.lvs.log -json |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/lvs/lvs.log"
+
+Fri Dec 18 18:51:17 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_antenna_check.tcl |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/routing/or_antenna.log"
+
+Fri Dec 18 18:51:42 UTC 2020 - Executing "awk { BEGIN {  # Print power and standard_input definitions
+    print "VPWR power 1.8";
+    print "VGND power 0.0";
+    print "#define std_input min@VGND max@VPWR";
+}
+$1 == "input" {  # Print input nets
+    gsub(/;/, ""); 
+    if ( $2 == "VPWR" || $2 == "VGND" ) {  # ignore power nets
+        next;
+    }
+    if ( NF == 3 ) {  # print buses as net[range]
+        $2 = $3 $2;
+    }
+    print $2, "input std_input";
+}} /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/lvs/ibex_wrapper.lvs.powered.v > /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/cvc/ibex_wrapper.power"
+
+Fri Dec 18 18:51:42 UTC 2020 - Executing "awk { /Black-box entry subcircuit/ {  # remove black-box defintions
+    while ( $1 != ".ends" ) {
+        getline;
+    }
+    getline;
+}
+/^\*/ {  # remove comments
+    next;
+}
+/^.ENDS .*/ {  # remove name from ends lines
+    print $1;
+    next;
+}
+ {
+    print $0;
+}} /pdks/sky130A/libs.ref/sky130_fd_sc_hd/cdl/sky130_fd_sc_hd.cdl /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/ibex_wrapper.lef.spice > /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/cvc/ibex_wrapper.cdl"
+
+Fri Dec 18 18:51:42 UTC 2020 - Executing "cvc /openLANE_flow/scripts/cvc/sky130A/cvcrc.sky130A |& tee >&@stdout /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/logs/cvc/cvc_screen.log"
+
+Fri Dec 18 18:51:43 UTC 2020 - Executing "python3 /openLANE_flow/report_generation_wrapper.py -d /openLANE_flow/designs/ibex_wrapper -dn ibex_wrapper -t 18-12_18-19 -o /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/reports/final_summary_report.csv -m /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/reports/manfucturability_report.rpt -r /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19"
+

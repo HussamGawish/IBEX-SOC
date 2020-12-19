@@ -1,0 +1,146 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Notice 0: error: undefined layer (nwell) referenced
+Notice 0: error: undefined layer (pwell) referenced
+Notice 0:     Created 11 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 438 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/floorplan/pdn.def
+Notice 0: Design: ibex_wrapper
+Notice 0:     Created 132 pins.
+Notice 0:     Created 42734 components and 168192 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 24738 nets and 82721 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/tmp/floorplan/pdn.def
+[INFO] DBU = 1000
+[INFO] SiteSize = (460, 2720)
+[INFO] CoreAreaLxLy = (5520, 10880)
+[INFO] CoreAreaUxUy = (1157360, 1161440)
+[INFO] NumInstances = 42734
+[INFO] NumPlaceInstances = 24678
+[INFO] NumFixedInstances = 18056
+[INFO] NumDummyInstances = 0
+[INFO] NumNets = 24738
+[INFO] NumPins = 82851
+[INFO] DieAreaLxLy = (0, 0)
+[INFO] DieAreaUxUy = (1163170, 1173890)
+[INFO] CoreAreaLxLy = (5520, 10880)
+[INFO] CoreAreaUxUy = (1157360, 1161440)
+[INFO] CoreArea = 1325261030400
+[INFO] NonPlaceInstsArea = 24708697600
+[INFO] PlaceInstsArea = 331849520000
+[INFO] Util(%) = 25.516045
+[INFO] StdInstsArea = 331849520000
+[INFO] MacroInstsArea = 0
+[InitialPlace]  Iter: 1 CG Error: 9.43088e-05 HPWL: 394832440
+[InitialPlace]  Iter: 2 CG Error: 1.67005e-05 HPWL: 371484046
+[InitialPlace]  Iter: 3 CG Error: 1.82566e-05 HPWL: 372409713
+[InitialPlace]  Iter: 4 CG Error: 1.87579e-05 HPWL: 373509828
+[InitialPlace]  Iter: 5 CG Error: 1.96036e-05 HPWL: 373626827
+[InitialPlace]  Iter: 6 CG Error: 1.99197e-05 HPWL: 374152113
+[InitialPlace]  Iter: 7 CG Error: 2.06088e-05 HPWL: 374089962
+[InitialPlace]  Iter: 8 CG Error: 2.10194e-05 HPWL: 374468738
+[InitialPlace]  Iter: 9 CG Error: 2.22174e-05 HPWL: 374344448
+[InitialPlace]  Iter: 10 CG Error: 2.50607e-05 HPWL: 374681240
+[InitialPlace]  Iter: 11 CG Error: 3.75119e-05 HPWL: 374521031
+[InitialPlace]  Iter: 12 CG Error: 1.52604e-05 HPWL: 374871986
+[InitialPlace]  Iter: 13 CG Error: 1.41935e-05 HPWL: 374688385
+[InitialPlace]  Iter: 14 CG Error: 2.05848e-05 HPWL: 374982211
+[InitialPlace]  Iter: 15 CG Error: 1.41665e-05 HPWL: 374786271
+[InitialPlace]  Iter: 16 CG Error: 1.46487e-05 HPWL: 375069079
+[InitialPlace]  Iter: 17 CG Error: 2.22819e-05 HPWL: 374840858
+[InitialPlace]  Iter: 18 CG Error: 9.60279e-06 HPWL: 375121764
+[INFO] FillerInit: NumGCells = 39022
+[INFO] FillerInit: NumGNets = 24738
+[INFO] FillerInit: NumGPins = 82851
+[INFO] TargetDensity = 0.400000
+[INFO] AveragePlaceInstArea = 13447180
+[INFO] IdealBinArea = 33617948
+[INFO] IdealBinCnt = 39421
+[INFO] TotalBinArea = 1325261030400
+[INFO] BinCnt = (128, 128)
+[INFO] BinSize = (8999, 8989)
+[INFO] NumBins = 16384
+[NesterovSolve] Iter: 1 overflow: 0.98798 HPWL: 199684748
+[NesterovSolve] Iter: 10 overflow: 0.971363 HPWL: 279950733
+[NesterovSolve] Iter: 20 overflow: 0.968153 HPWL: 284976387
+[NesterovSolve] Iter: 30 overflow: 0.966854 HPWL: 287923965
+[NesterovSolve] Iter: 40 overflow: 0.966406 HPWL: 289952594
+[NesterovSolve] Iter: 50 overflow: 0.965904 HPWL: 291423520
+[NesterovSolve] Iter: 60 overflow: 0.965809 HPWL: 291996256
+[NesterovSolve] Iter: 70 overflow: 0.965993 HPWL: 291865826
+[NesterovSolve] Iter: 80 overflow: 0.966145 HPWL: 291596344
+[NesterovSolve] Iter: 90 overflow: 0.966227 HPWL: 291563268
+[NesterovSolve] Iter: 100 overflow: 0.966146 HPWL: 291913903
+[NesterovSolve] Iter: 110 overflow: 0.965965 HPWL: 292737868
+[NesterovSolve] Iter: 120 overflow: 0.965744 HPWL: 294196323
+[NesterovSolve] Iter: 130 overflow: 0.965415 HPWL: 296605783
+[NesterovSolve] Iter: 140 overflow: 0.964952 HPWL: 300798588
+[NesterovSolve] Iter: 150 overflow: 0.964475 HPWL: 307951090
+[NesterovSolve] Iter: 160 overflow: 0.963567 HPWL: 319018767
+[NesterovSolve] Iter: 170 overflow: 0.96185 HPWL: 335749318
+[NesterovSolve] Iter: 180 overflow: 0.959751 HPWL: 360868703
+[NesterovSolve] Iter: 190 overflow: 0.956103 HPWL: 394487804
+[NesterovSolve] Iter: 200 overflow: 0.950505 HPWL: 432977775
+[NesterovSolve] Iter: 210 overflow: 0.941291 HPWL: 480381090
+[NesterovSolve] Iter: 220 overflow: 0.928121 HPWL: 537450770
+[NesterovSolve] Iter: 230 overflow: 0.91102 HPWL: 600196363
+[NesterovSolve] Iter: 240 overflow: 0.891017 HPWL: 666342908
+[NesterovSolve] Iter: 250 overflow: 0.865532 HPWL: 736401304
+[NesterovSolve] Iter: 260 overflow: 0.837377 HPWL: 811508083
+[NesterovSolve] Iter: 270 overflow: 0.80602 HPWL: 890001609
+[NesterovSolve] Iter: 280 overflow: 0.773227 HPWL: 961335972
+[NesterovSolve] Iter: 290 overflow: 0.73715 HPWL: 1038771170
+[NesterovSolve] Iter: 300 overflow: 0.698075 HPWL: 1108975445
+[NesterovSolve] Iter: 310 overflow: 0.655434 HPWL: 1179148314
+[NesterovSolve] Iter: 320 overflow: 0.610065 HPWL: 1233948953
+[NesterovSolve] Iter: 330 overflow: 0.560792 HPWL: 1292910690
+[NesterovSolve] Iter: 340 overflow: 0.505359 HPWL: 1347176429
+[NesterovSolve] Iter: 350 overflow: 0.445742 HPWL: 1409815044
+[NesterovSolve] Iter: 360 overflow: 0.393848 HPWL: 1461496143
+[NesterovSolve] Iter: 370 overflow: 0.347979 HPWL: 1493140422
+[NesterovSolve] Iter: 380 overflow: 0.311598 HPWL: 1513385264
+[NesterovSolve] Iter: 390 overflow: 0.281365 HPWL: 1528417329
+[NesterovSolve] Iter: 400 overflow: 0.249182 HPWL: 1541495522
+[NesterovSolve] Iter: 410 overflow: 0.219555 HPWL: 1550759466
+[NesterovSolve] Iter: 420 overflow: 0.191593 HPWL: 1557599586
+[NesterovSolve] Iter: 430 overflow: 0.166669 HPWL: 1562888193
+[NesterovSolve] Iter: 440 overflow: 0.143911 HPWL: 1566795532
+[NesterovSolve] Iter: 450 overflow: 0.123794 HPWL: 1569751926
+[NesterovSolve] Iter: 460 overflow: 0.106452 HPWL: 1572235220
+[NesterovSolve] Finished with Overflow: 0.0992025
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, line 32 default_operating_condition ss_100C_1v60 not found.
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_hl_isowell_tap_4 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_1 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_2 pin VPB missing from LEF macro
+Warning: Liberty cell sky130_fd_sc_hd__lpflow_lsbuf_lh_isowell_tap_4 pin VPB missing from LEF macro
+Warning: /pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib, line 31 default_operating_condition ff_n40C_1v95 not found.
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 2.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 2.0
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]

@@ -1,0 +1,375 @@
+
+Magic 8.3 revision 93 - Compiled on Mon Dec  7 16:32:25 UTC 2020.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130: scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/openLANE_flow/scripts/magic/lef.tcl" from command line.
+Reading LEF data from file /pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef.
+This action cannot be undone.
+LEF read, Line 61 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 62 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 95 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 96 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 102 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 103 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 104 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 142 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 143 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 145 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 146 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 147 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 183 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 184 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 186 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 187 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 188 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 224 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 225 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 227 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 228 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 229 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 265 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 266 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 772 lines.
+ibex_wrapper: 10000 rects
+ibex_wrapper: 20000 rects
+ibex_wrapper: 30000 rects
+ibex_wrapper: 40000 rects
+ibex_wrapper: 50000 rects
+ibex_wrapper: 60000 rects
+ibex_wrapper: 70000 rects
+ibex_wrapper: 80000 rects
+ibex_wrapper: 90000 rects
+ibex_wrapper: 100000 rects
+ibex_wrapper: 110000 rects
+ibex_wrapper: 120000 rects
+ibex_wrapper: 130000 rects
+ibex_wrapper: 140000 rects
+ibex_wrapper: 150000 rects
+ibex_wrapper: 160000 rects
+ibex_wrapper: 170000 rects
+ibex_wrapper: 180000 rects
+ibex_wrapper: 190000 rects
+ibex_wrapper: 200000 rects
+ibex_wrapper: 210000 rects
+ibex_wrapper: 220000 rects
+ibex_wrapper: 230000 rects
+ibex_wrapper: 240000 rects
+ibex_wrapper: 250000 rects
+ibex_wrapper: 260000 rects
+ibex_wrapper: 270000 rects
+ibex_wrapper: 280000 rects
+ibex_wrapper: 290000 rects
+ibex_wrapper: 300000 rects
+ibex_wrapper: 310000 rects
+ibex_wrapper: 320000 rects
+ibex_wrapper: 330000 rects
+ibex_wrapper: 340000 rects
+ibex_wrapper: 350000 rects
+ibex_wrapper: 360000 rects
+ibex_wrapper: 370000 rects
+ibex_wrapper: 380000 rects
+ibex_wrapper: 390000 rects
+ibex_wrapper: 400000 rects
+ibex_wrapper: 410000 rects
+ibex_wrapper: 420000 rects
+ibex_wrapper: 430000 rects
+ibex_wrapper: 440000 rects
+ibex_wrapper: 450000 rects
+ibex_wrapper: 460000 rects
+ibex_wrapper: 470000 rects
+ibex_wrapper: 480000 rects
+ibex_wrapper: 490000 rects
+ibex_wrapper: 500000 rects
+ibex_wrapper: 510000 rects
+ibex_wrapper: 520000 rects
+ibex_wrapper: 530000 rects
+ibex_wrapper: 540000 rects
+ibex_wrapper: 550000 rects
+ibex_wrapper: 560000 rects
+ibex_wrapper: 570000 rects
+ibex_wrapper: 580000 rects
+ibex_wrapper: 590000 rects
+ibex_wrapper: 600000 rects
+ibex_wrapper: 610000 rects
+ibex_wrapper: 620000 rects
+ibex_wrapper: 630000 rects
+ibex_wrapper: 640000 rects
+ibex_wrapper: 650000 rects
+ibex_wrapper: 660000 rects
+ibex_wrapper: 670000 rects
+ibex_wrapper: 680000 rects
+ibex_wrapper: 690000 rects
+ibex_wrapper: 700000 rects
+ibex_wrapper: 710000 rects
+ibex_wrapper: 720000 rects
+ibex_wrapper: 730000 rects
+ibex_wrapper: 740000 rects
+ibex_wrapper: 750000 rects
+ibex_wrapper: 760000 rects
+ibex_wrapper: 770000 rects
+ibex_wrapper: 780000 rects
+ibex_wrapper: 790000 rects
+ibex_wrapper: 800000 rects
+ibex_wrapper: 810000 rects
+ibex_wrapper: 820000 rects
+ibex_wrapper: 830000 rects
+ibex_wrapper: 840000 rects
+ibex_wrapper: 850000 rects
+ibex_wrapper: 860000 rects
+ibex_wrapper: 870000 rects
+ibex_wrapper: 880000 rects
+ibex_wrapper: 890000 rects
+ibex_wrapper: 900000 rects
+ibex_wrapper: 910000 rects
+ibex_wrapper: 920000 rects
+ibex_wrapper: 930000 rects
+ibex_wrapper: 940000 rects
+ibex_wrapper: 950000 rects
+ibex_wrapper: 960000 rects
+ibex_wrapper: 970000 rects
+ibex_wrapper: 980000 rects
+ibex_wrapper: 990000 rects
+ibex_wrapper: 1000000 rects
+ibex_wrapper: 1010000 rects
+ibex_wrapper: 1020000 rects
+ibex_wrapper: 1030000 rects
+ibex_wrapper: 1040000 rects
+ibex_wrapper: 1050000 rects
+ibex_wrapper: 1060000 rects
+ibex_wrapper: 1070000 rects
+ibex_wrapper: 1080000 rects
+ibex_wrapper: 1090000 rects
+ibex_wrapper: 1100000 rects
+ibex_wrapper: 1110000 rects
+ibex_wrapper: 1120000 rects
+ibex_wrapper: 1130000 rects
+ibex_wrapper: 1140000 rects
+ibex_wrapper: 1150000 rects
+ibex_wrapper: 1160000 rects
+ibex_wrapper: 1170000 rects
+ibex_wrapper: 1180000 rects
+ibex_wrapper: 1190000 rects
+ibex_wrapper: 1200000 rects
+ibex_wrapper: 1210000 rects
+ibex_wrapper: 1220000 rects
+ibex_wrapper: 1230000 rects
+ibex_wrapper: 1240000 rects
+ibex_wrapper: 1250000 rects
+ibex_wrapper: 1260000 rects
+ibex_wrapper: 1270000 rects
+ibex_wrapper: 1280000 rects
+ibex_wrapper: 1290000 rects
+ibex_wrapper: 1300000 rects
+ibex_wrapper: 1310000 rects
+ibex_wrapper: 1320000 rects
+ibex_wrapper: 1330000 rects
+ibex_wrapper: 1340000 rects
+ibex_wrapper: 1350000 rects
+ibex_wrapper: 1360000 rects
+ibex_wrapper: 1370000 rects
+ibex_wrapper: 1380000 rects
+ibex_wrapper: 1390000 rects
+ibex_wrapper: 1400000 rects
+ibex_wrapper: 1410000 rects
+ibex_wrapper: 1420000 rects
+ibex_wrapper: 1430000 rects
+ibex_wrapper: 1440000 rects
+ibex_wrapper: 1450000 rects
+ibex_wrapper: 1460000 rects
+ibex_wrapper: 1470000 rects
+ibex_wrapper: 1480000 rects
+ibex_wrapper: 1490000 rects
+ibex_wrapper: 1500000 rects
+ibex_wrapper: 1510000 rects
+ibex_wrapper: 1520000 rects
+ibex_wrapper: 1530000 rects
+ibex_wrapper: 1540000 rects
+ibex_wrapper: 1550000 rects
+ibex_wrapper: 1560000 rects
+ibex_wrapper: 1570000 rects
+ibex_wrapper: 1580000 rects
+ibex_wrapper: 1590000 rects
+ibex_wrapper: 1600000 rects
+ibex_wrapper: 1610000 rects
+ibex_wrapper: 1620000 rects
+ibex_wrapper: 1630000 rects
+ibex_wrapper: 1640000 rects
+ibex_wrapper: 1650000 rects
+ibex_wrapper: 1660000 rects
+ibex_wrapper: 1670000 rects
+ibex_wrapper: 1680000 rects
+ibex_wrapper: 1690000 rects
+[INFO]: Writing abstract LEF
+Generating LEF output /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/ibex_wrapper.lef for cell ibex_wrapper:
+Diagnostic:  Write LEF header for cell ibex_wrapper
+Diagnostic:  Writing LEF output for cell ibex_wrapper
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__decap_3" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__decap_3.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__decap_3.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__decap_8" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__decap_8.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__decap_8.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__tapvpwrvgnd_1" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__tapvpwrvgnd_1.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__tapvpwrvgnd_1.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__decap_12" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__decap_12.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__decap_12.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__decap_6" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__decap_6.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__decap_6.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__fill_1" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__fill_1.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__fill_1.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nor2_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__nor2_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nor2_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__decap_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__decap_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__decap_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__inv_2" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__inv_2.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__inv_2.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a21oi_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a21oi_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a21oi_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__fill_2" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__fill_2.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__fill_2.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nand3_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__nand3_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nand3_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a21boi_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a21boi_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a21boi_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__dfrtp_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__dfrtp_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__dfrtp_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o21ai_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__o21ai_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o21ai_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__diode_2" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__diode_2.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__diode_2.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__xor2_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__xor2_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__xor2_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o21a_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__o21a_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o21a_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nor4_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__nor4_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nor4_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nor3_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__nor3_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nor3_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__buf_2" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__buf_2.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__buf_2.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__and4_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__and4_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__and4_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a21o_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a21o_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a21o_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__xnor2_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__xnor2_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__xnor2_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nand4_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__nand4_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nand4_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__or2_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__or2_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__or2_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nand2_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__nand2_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nand2_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a32oi_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a32oi_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a32oi_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a2111oi_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a2111oi_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a2111oi_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__and3_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__and3_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__and3_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__and2_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__and2_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__and2_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a211o_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a211o_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a211o_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a2bb2o_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a2bb2o_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a2bb2o_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a22oi_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a22oi_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a22oi_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a41oi_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a41oi_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a41oi_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o22a_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__o22a_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o22a_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__dfstp_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__dfstp_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__dfstp_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a41o_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a41o_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a41o_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o41ai_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__o41ai_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o41ai_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o41a_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__o41a_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o41a_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a21bo_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a21bo_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a21bo_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__or3_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__or3_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__or3_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o32ai_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__o32ai_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o32ai_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a32o_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a32o_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a32o_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o32a_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__o32a_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o32a_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a2bb2oi_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a2bb2oi_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a2bb2oi_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a2111o_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__a2111o_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a2111o_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__or4_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__or4_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__or4_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__dfxtp_4" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__dfxtp_4.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__dfxtp_4.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__conb_1" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__conb_1.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__conb_1.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__clkbuf_16" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__clkbuf_16.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__clkbuf_16.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__clkbuf_1" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__clkbuf_1.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__clkbuf_1.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__dlclkp_1" at bad file path /openLANE_flow/designs/ibex_wrapper/runs/18-12_18-19/results/magic/sky130_fd_sc_hd__dlclkp_1.mag.
+The cell exists in the search paths at /pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__dlclkp_1.mag.
+The discovered version will be used.
+Diagnostic:  Scale value is 0.005000
+Processing timestamp mismatches: sky130_fd_sc_hd__dlclkp_1, sky130_fd_sc_hd__clkbuf_1, sky130_fd_sc_hd__clkbuf_16, sky130_fd_sc_hd__conb_1, sky130_fd_sc_hd__dfxtp_4, sky130_fd_sc_hd__or4_4, sky130_fd_sc_hd__a2111o_4, sky130_fd_sc_hd__a2bb2oi_4, sky130_fd_sc_hd__o32a_4, sky130_fd_sc_hd__a32o_4, sky130_fd_sc_hd__o32ai_4, sky130_fd_sc_hd__or3_4, sky130_fd_sc_hd__a21bo_4, sky130_fd_sc_hd__o41a_4, sky130_fd_sc_hd__o41ai_4, sky130_fd_sc_hd__a41o_4, sky130_fd_sc_hd__dfstp_4, sky130_fd_sc_hd__o22a_4, sky130_fd_sc_hd__a41oi_4, sky130_fd_sc_hd__a22oi_4, sky130_fd_sc_hd__a2bb2o_4, sky130_fd_sc_hd__a211o_4, sky130_fd_sc_hd__and2_4, sky130_fd_sc_hd__and3_4, sky130_fd_sc_hd__a2111oi_4, sky130_fd_sc_hd__a32oi_4, sky130_fd_sc_hd__nand2_4, sky130_fd_sc_hd__or2_4, sky130_fd_sc_hd__nand4_4, sky130_fd_sc_hd__xnor2_4, sky130_fd_sc_hd__a21o_4, sky130_fd_sc_hd__and4_4, sky130_fd_sc_hd__buf_2, sky130_fd_sc_hd__nor3_4, sky130_fd_sc_hd__nor4_4, sky130_fd_sc_hd__o21a_4, sky130_fd_sc_hd__xor2_4, sky130_fd_sc_hd__diode_2, sky130_fd_sc_hd__o21ai_4, sky130_fd_sc_hd__dfrtp_4, sky130_fd_sc_hd__a21boi_4, sky130_fd_sc_hd__nand3_4, sky130_fd_sc_hd__fill_2, sky130_fd_sc_hd__a21oi_4, sky130_fd_sc_hd__inv_2, sky130_fd_sc_hd__decap_4, sky130_fd_sc_hd__nor2_4, sky130_fd_sc_hd__fill_1, sky130_fd_sc_hd__decap_6, sky130_fd_sc_hd__decap_12, sky130_fd_sc_hd__tapvpwrvgnd_1, sky130_fd_sc_hd__decap_8, sky130_fd_sc_hd__decap_3.
+[INFO]: LEF Write Complete
+Using technology "sky130A", version 1.0.87-0-gea38676

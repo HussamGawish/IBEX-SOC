@@ -1,0 +1,11 @@
+VPWR power 1.8
+VGND power 0.0
+#define std_input min@VGND max@VPWR
+EXT_IRQ input std_input
+HCLK input std_input
+HRDATA[31:0] input std_input
+HREADY input std_input
+HRESETn input std_input
+IRQ[14:0] input std_input
+NMI input std_input
+SYSTICKCLKDIV[7:0] input std_input
