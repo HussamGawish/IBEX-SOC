@@ -1,0 +1,151 @@
+===========================================================================
+   Open Source Mixed-Height Standard Cell Detail Placer < OpenDP_v1.0 >    
+   Developers : SangGi Do, Mingyu Woo                                      
+===========================================================================
+Parsed 10000 number of lines!!
+Parsed 20000 number of lines!!
+Parsed 30000 number of lines!!
+Parsed 40000 number of lines!!
+Parsed 50000 number of lines!!
+Parsed 60000 number of lines!!
+Reading /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef is Done
+
+-------------------- INPUT FILES ----------------------------------
+ benchmark name    : placement
+ directory         : /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp
+ lef               : /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.lef
+ def               : /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/openphysyn.def
+-------------------------------------------------------------------
+Parsed 10000 number of lines!!
+Parsed 20000 number of lines!!
+Parsed 30000 number of lines!!
+Parsed 40000 number of lines!!
+Parsed 50000 number of lines!!
+Parsed 60000 number of lines!!
+Parsed 70000 number of lines!!
+Parsed 80000 number of lines!!
+Parsed 90000 number of lines!!
+Parsed 100000 number of lines!!
+Parsed 110000 number of lines!!
+Parsed 120000 number of lines!!
+Parsed 130000 number of lines!!
+Parsed 140000 number of lines!!
+Parsed 150000 number of lines!!
+Parsed 160000 number of lines!!
+Parsed 170000 number of lines!!
+Parsed 180000 number of lines!!
+Parsed 190000 number of lines!!
+Parsed 200000 number of lines!!
+Parsed 210000 number of lines!!
+Parsed 220000 number of lines!!
+Parsed 230000 number of lines!!
+Parsed 240000 number of lines!!
+Parsed 250000 number of lines!!
+Parsed 260000 number of lines!!
+Parsed 270000 number of lines!!
+Parsed 280000 number of lines!!
+Parsed 290000 number of lines!!
+Parsed 300000 number of lines!!
+Parsed 310000 number of lines!!
+Parsed 320000 number of lines!!
+Parsed 330000 number of lines!!
+Parsed 340000 number of lines!!
+Parsed 350000 number of lines!!
+Parsed 360000 number of lines!!
+Parsed 370000 number of lines!!
+Parsed 380000 number of lines!!
+Parsed 390000 number of lines!!
+Parsed 400000 number of lines!!
+Parsed 410000 number of lines!!
+Parsed 420000 number of lines!!
+Parsed 430000 number of lines!!
+Parsed 440000 number of lines!!
+Parsed 450000 number of lines!!
+Parsed 460000 number of lines!!
+Parsed 470000 number of lines!!
+Parsed 480000 number of lines!!
+Parsed 490000 number of lines!!
+Parsed 500000 number of lines!!
+Parsed 510000 number of lines!!
+Parsed 520000 number of lines!!
+Parsed 530000 number of lines!!
+Parsed 540000 number of lines!!
+Parsed 550000 number of lines!!
+Parsed 560000 number of lines!!
+Parsed 570000 number of lines!!
+Parsed 580000 number of lines!!
+Parsed 590000 number of lines!!
+Parsed 600000 number of lines!!
+Parsed 610000 number of lines!!
+Parsed 620000 number of lines!!
+Parsed 630000 number of lines!!
+Parsed 640000 number of lines!!
+Parsed 650000 number of lines!!
+Parsed 660000 number of lines!!
+Parsed 670000 number of lines!!
+Parsed 680000 number of lines!!
+Parsed 690000 number of lines!!
+Parsed 700000 number of lines!!
+Parsed 710000 number of lines!!
+Parsed 720000 number of lines!!
+Parsed 730000 number of lines!!
+Parsed 740000 number of lines!!
+Parsed 750000 number of lines!!
+Parsed 760000 number of lines!!
+Parsed 770000 number of lines!!
+Parsed 780000 number of lines!!
+Parsed 790000 number of lines!!
+Parsed 800000 number of lines!!
+Parsed 810000 number of lines!!
+Parsed 820000 number of lines!!
+Parsed 830000 number of lines!!
+Parsed 840000 number of lines!!
+CoreArea: 
+5520.000000 : 10880.000000 - 2914100.000000 : 3508800.000000
+DieArea: 
+0.000000 : 0.000000 - 2908580.000000 : 3497920.000000
+Reading /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/openphysyn.def is Done
+-------------------- DESIGN ANALYSIS ------------------------------
+  total cells              : 454021
+  multi cells              : 0
+  fixed cells              : 135872
+  total nets               : 318548
+  design area              : 1.0174e+13
+  total f_area             : 1.76439e+11
+  total m_area             : 4.30242e+12
+  design util              : 43.0348
+  num rows                 : 1286
+  row height               : 2720
+-------------------------------------------------------------------
+ non_group_cell_region_assign done ..
+ - - - - - - - - - - - - - - - - - - - - - - - - 
+ non_group_cell_placement done .. 
+ - - - - - - - - - - - - - - - - - - - - - - - - 
+Reading /project/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/openphysyn.def is Done
+ DEF file write success !! 
+ location : /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/placement/user_project_wrapper.placement.def
+-------------------------------------------------------------------
+ tasks                          Wtime      Ctime
+ Parser                         7.494      7.490
+ resgin assign                  7.744      7.740
+ pre-placement                  7.744      7.740
+ non Group cell placement       8.096      8.090
+ All                            8.124      8.120
+ - - - - - EVALUATION - - - - - 
+ AVG_displacement : 1568.5
+ SUM_displacement : 7.12134e+08
+ MAX_displacement : 13805
+ - - - - - - - - - - - - - - - - 
+ GP HPWL          : 3.33042e+07
+ HPWL             : 3.38349e+07
+ avg_Disp_site    : 3.40979
+ avg_Disp_row     : 0.576656
+ delta_HPWL       : 1.59337
+ ==== CHECK LEGALITY ==== 
+ row_check ==>> PASS 
+ site_check ==>> PASS 
+ power_check ==>> PASS 
+ edge_check ==>> PASS 
+ placed_check ==>> PASS 
+ overlap_check ==>> PASS 
+ - - - - - < Program END > - - - - - 

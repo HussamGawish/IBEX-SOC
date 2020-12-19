@@ -1,0 +1,31 @@
+Startpoint: wb_clk_i (input port clocked by user_clock2)
+Endpoint: io_out[4] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock user_clock2 (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+ 388.34  390.34 ^ wb_clk_i (in)
+  16.71  407.06 ^ _278490_/X (sky130_fd_sc_hd__buf_8)
+   0.83  407.89 ^ psn_inst_psn_buff_1/X (sky130_fd_sc_hd__buf_2)
+   0.22  408.11 ^ psn_inst_psn_buff_0/X (sky130_fd_sc_hd__buf_2)
+   0.08  408.19 v _554927_/Y (sky130_fd_sc_hd__nand2_4)
+   0.14  408.33 ^ _554928_/Y (sky130_fd_sc_hd__inv_2)
+   0.00  408.33 ^ io_out[4] (out)
+         408.33   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+        -408.33   data arrival time
+---------------------------------------------------------
+        -400.33   slack (VIOLATED)
+
+

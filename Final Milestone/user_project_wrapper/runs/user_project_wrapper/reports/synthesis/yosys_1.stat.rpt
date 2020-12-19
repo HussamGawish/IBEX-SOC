@@ -1,0 +1,57 @@
+
+73. Printing statistics.
+
+=== user_project_wrapper ===
+
+   Number of wires:             318174
+   Number of wire bits:         318792
+   Number of public wires:       40450
+   Number of public wire bits:   41068
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:             318385
+     sky130_fd_sc_hd__a2111o_4     423
+     sky130_fd_sc_hd__a2111oi_4    302
+     sky130_fd_sc_hd__a211o_4     1141
+     sky130_fd_sc_hd__a21bo_4      219
+     sky130_fd_sc_hd__a21boi_4     332
+     sky130_fd_sc_hd__a21o_4     10607
+     sky130_fd_sc_hd__a21oi_4     4246
+     sky130_fd_sc_hd__a22oi_4     3279
+     sky130_fd_sc_hd__a2bb2o_4     236
+     sky130_fd_sc_hd__a2bb2oi_4     61
+     sky130_fd_sc_hd__a32o_4       354
+     sky130_fd_sc_hd__a32oi_4       80
+     sky130_fd_sc_hd__a41o_4       126
+     sky130_fd_sc_hd__a41oi_4      218
+     sky130_fd_sc_hd__and2_4       552
+     sky130_fd_sc_hd__and3_4       709
+     sky130_fd_sc_hd__and4_4      5918
+     sky130_fd_sc_hd__buf_2      75199
+     sky130_fd_sc_hd__conb_1       185
+     sky130_fd_sc_hd__dfrtp_4     2384
+     sky130_fd_sc_hd__dfstp_4       51
+     sky130_fd_sc_hd__dfxtp_4    37967
+     sky130_fd_sc_hd__inv_2      36378
+     sky130_fd_sc_hd__nand2_4    14362
+     sky130_fd_sc_hd__nand3_4    44202
+     sky130_fd_sc_hd__nand4_4    33300
+     sky130_fd_sc_hd__nor2_4      3393
+     sky130_fd_sc_hd__nor3_4      2553
+     sky130_fd_sc_hd__nor4_4       275
+     sky130_fd_sc_hd__o21a_4      1192
+     sky130_fd_sc_hd__o21ai_4    37138
+     sky130_fd_sc_hd__o22a_4        63
+     sky130_fd_sc_hd__o32a_4         2
+     sky130_fd_sc_hd__o32ai_4       47
+     sky130_fd_sc_hd__o41a_4        47
+     sky130_fd_sc_hd__o41ai_4       72
+     sky130_fd_sc_hd__or2_4        241
+     sky130_fd_sc_hd__or3_4         68
+     sky130_fd_sc_hd__or4_4         15
+     sky130_fd_sc_hd__xnor2_4      232
+     sky130_fd_sc_hd__xor2_4       216
+
+   Chip area for module '\user_project_wrapper': 4308338.287996
+

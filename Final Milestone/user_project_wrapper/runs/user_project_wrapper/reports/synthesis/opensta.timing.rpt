@@ -1,0 +1,1038 @@
+Startpoint: wb_clk_i (input port clocked by user_clock2)
+Endpoint: io_out[4] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock user_clock2 (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+ 110.00  112.00 ^ wb_clk_i (in)
+  23.57  135.57 ^ _278490_/X (sky130_fd_sc_hd__buf_2)
+   0.33  135.90 v _554927_/Y (sky130_fd_sc_hd__nand2_4)
+   0.27  136.17 ^ _554928_/Y (sky130_fd_sc_hd__inv_2)
+   0.00  136.17 ^ io_out[4] (out)
+         136.17   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+        -136.17   data arrival time
+---------------------------------------------------------
+        -128.17   slack (VIOLATED)
+
+
+Startpoint: _595430_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[26] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _595430_/CLK (sky130_fd_sc_hd__dfstp_4)
+  29.79   29.79 ^ _595430_/Q (sky130_fd_sc_hd__dfstp_4)
+   0.00   29.79 ^ io_oeb[26] (out)
+          29.79   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.79   data arrival time
+---------------------------------------------------------
+         -21.79   slack (VIOLATED)
+
+
+Startpoint: _595429_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[27] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _595429_/CLK (sky130_fd_sc_hd__dfstp_4)
+  29.72   29.72 ^ _595429_/Q (sky130_fd_sc_hd__dfstp_4)
+   0.00   29.72 ^ io_oeb[27] (out)
+          29.72   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.72   data arrival time
+---------------------------------------------------------
+         -21.72   slack (VIOLATED)
+
+
+Startpoint: _594916_ (rising edge-triggered flip-flop)
+Endpoint: io_out[31] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594916_/CLK (sky130_fd_sc_hd__dfstp_4)
+  29.72   29.72 ^ _594916_/Q (sky130_fd_sc_hd__dfstp_4)
+   0.00   29.72 ^ io_out[31] (out)
+          29.72   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.72   data arrival time
+---------------------------------------------------------
+         -21.72   slack (VIOLATED)
+
+
+Startpoint: _594918_ (rising edge-triggered flip-flop)
+Endpoint: io_out[30] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594918_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.50   29.50 ^ _594918_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.15   29.65 v _554913_/Y (sky130_fd_sc_hd__inv_2)
+   0.00   29.65 v io_out[30] (out)
+          29.65   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.65   data arrival time
+---------------------------------------------------------
+         -21.65   slack (VIOLATED)
+
+
+Startpoint: _594929_ (rising edge-triggered flip-flop)
+Endpoint: io_out[24] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594929_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.58   29.58 ^ _594929_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.58 ^ io_out[24] (out)
+          29.58   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.58   data arrival time
+---------------------------------------------------------
+         -21.58   slack (VIOLATED)
+
+
+Startpoint: _594729_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[10] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594729_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.58   29.58 ^ _594729_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.58 ^ io_oeb[10] (out)
+          29.58   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.58   data arrival time
+---------------------------------------------------------
+         -21.58   slack (VIOLATED)
+
+
+Startpoint: _594733_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[14] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594733_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.58   29.58 ^ _594733_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.58 ^ io_oeb[14] (out)
+          29.58   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.58   data arrival time
+---------------------------------------------------------
+         -21.58   slack (VIOLATED)
+
+
+Startpoint: _594730_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[11] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594730_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594730_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[11] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594731_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[12] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594731_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594731_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[12] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594732_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[13] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594732_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594732_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[13] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594734_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[15] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594734_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594734_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[15] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594725_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[6] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594725_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594725_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[6] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594726_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[7] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594726_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594726_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[7] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594727_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[8] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594727_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594727_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[8] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594728_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[9] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594728_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594728_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[9] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594739_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[20] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594739_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594739_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[20] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594745_ (rising edge-triggered flip-flop)
+Endpoint: io_out[10] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594745_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594745_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_out[10] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594742_ (rising edge-triggered flip-flop)
+Endpoint: io_out[7] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594742_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594742_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_out[7] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594743_ (rising edge-triggered flip-flop)
+Endpoint: io_out[8] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594743_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594743_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_out[8] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594744_ (rising edge-triggered flip-flop)
+Endpoint: io_out[9] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594744_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594744_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_out[9] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594740_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[21] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594740_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594740_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[21] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594735_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[16] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594735_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594735_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[16] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594736_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[17] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594736_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594736_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[17] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594737_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[18] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594737_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594737_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[18] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594738_ (rising edge-triggered flip-flop)
+Endpoint: io_oeb[19] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594738_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.57   29.57 ^ _594738_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.57 ^ io_oeb[19] (out)
+          29.57   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.57   data arrival time
+---------------------------------------------------------
+         -21.57   slack (VIOLATED)
+
+
+Startpoint: _594746_ (rising edge-triggered flip-flop)
+Endpoint: io_out[11] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594746_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594746_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[11] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594747_ (rising edge-triggered flip-flop)
+Endpoint: io_out[12] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594747_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594747_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[12] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594748_ (rising edge-triggered flip-flop)
+Endpoint: io_out[13] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594748_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594748_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[13] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594749_ (rising edge-triggered flip-flop)
+Endpoint: io_out[14] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594749_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594749_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[14] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594750_ (rising edge-triggered flip-flop)
+Endpoint: io_out[15] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594750_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594750_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[15] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594741_ (rising edge-triggered flip-flop)
+Endpoint: io_out[6] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594741_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594741_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[6] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594751_ (rising edge-triggered flip-flop)
+Endpoint: io_out[16] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594751_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594751_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[16] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594752_ (rising edge-triggered flip-flop)
+Endpoint: io_out[17] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594752_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594752_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[17] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594753_ (rising edge-triggered flip-flop)
+Endpoint: io_out[18] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594753_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594753_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[18] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594754_ (rising edge-triggered flip-flop)
+Endpoint: io_out[19] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594754_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594754_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[19] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594755_ (rising edge-triggered flip-flop)
+Endpoint: io_out[20] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594755_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594755_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[20] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594756_ (rising edge-triggered flip-flop)
+Endpoint: io_out[21] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594756_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _594756_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[21] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _595385_ (rising edge-triggered flip-flop)
+Endpoint: io_out[29] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _595385_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.56   29.56 ^ _595385_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.56 ^ io_out[29] (out)
+          29.56   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.56   data arrival time
+---------------------------------------------------------
+         -21.56   slack (VIOLATED)
+
+
+Startpoint: _594927_ (rising edge-triggered flip-flop)
+Endpoint: io_out[22] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594927_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.55   29.55 ^ _594927_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.55 ^ io_out[22] (out)
+          29.55   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.55   data arrival time
+---------------------------------------------------------
+         -21.55   slack (VIOLATED)
+
+
+Startpoint: _594928_ (rising edge-triggered flip-flop)
+Endpoint: io_out[23] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594928_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.55   29.55 ^ _594928_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.55 ^ io_out[23] (out)
+          29.55   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.55   data arrival time
+---------------------------------------------------------
+         -21.55   slack (VIOLATED)
+
+
+Startpoint: _594930_ (rising edge-triggered flip-flop)
+Endpoint: io_out[25] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _594930_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.55   29.55 ^ _594930_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.55 ^ io_out[25] (out)
+          29.55   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.55   data arrival time
+---------------------------------------------------------
+         -21.55   slack (VIOLATED)
+
+
+Startpoint: _595377_ (rising edge-triggered flip-flop)
+Endpoint: io_out[32] (output port clocked by user_clock2)
+Path Group: user_clock2
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ _595377_/CLK (sky130_fd_sc_hd__dfrtp_4)
+  29.54   29.54 ^ _595377_/Q (sky130_fd_sc_hd__dfrtp_4)
+   0.00   29.54 ^ io_out[32] (out)
+          29.54   data arrival time
+
+  10.00   10.00   clock user_clock2 (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+         -29.54   data arrival time
+---------------------------------------------------------
+         -21.54   slack (VIOLATED)
+
+
